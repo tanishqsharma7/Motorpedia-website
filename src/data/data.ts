@@ -128,34 +128,34 @@ export const headerMenu = [
       },
       {
         id: uuidv4(),
-        name: "Payroll Processing",
+        name: "DigitalizePro Services",
         link: "/services/payroll-processing",
       },
       {
         id: uuidv4(),
-        name: "Accounting Services",
+        name: "RTO Services",
         link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
-        name: "Taxation Services",
+        name: "Sale Enablement Services",
         link: "/services/taxation-services",
       },
-      {
-        id: uuidv4(),
-        name: "Real State Services",
-        link: "/services/real-state-services",
-      },
-      {
-        id: uuidv4(),
-        name: "Healthcare Services",
-        link: "/services/healthcare-services",
-      },
-      {
-        id: uuidv4(),
-        name: "Dentist Services",
-        link: "/services/dentist-services",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Real State Services",
+      //   link: "/services/real-state-services",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Healthcare Services",
+      //   link: "/services/healthcare-services",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Dentist Services",
+      //   link: "/services/dentist-services",
+      // },
     ],
   },
   {
@@ -347,17 +347,17 @@ export const footerLinks = [
     links: [
       {
         id: uuidv4(),
-        name: "Accounting Services",
+        name: "DigitalizePro Services",
         link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
-        name: "Taxations Services",
+        name: "RTO Services",
         link: "/services/taxation-services",
       },
       {
         id: uuidv4(),
-        name: "Healthcare Services",
+        name: "Sale Enablement Services",
         link: "/services/healthcare-services",
       },
       {
@@ -376,21 +376,21 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "admin@mail.com",
-        link: "mailto:example@mail.com",
+        name: "themotorpedia@gmail.com",
+        link: "mailto:themotorpedia@gmail.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
       {
         id: uuidv4(),
-        name: "+ 123 456 789",
+        name: "+91 99999-61887",
         isLink: true,
-        link: "tel:(000) 123 456 789",
+        link: "tel:+91 99999-61887",
         icon: React.createElement(PiPhoneCallBold),
       },
       {
         id: uuidv4(),
-        name: "255 Sheet, City Name Home Land, NY",
+        name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
@@ -401,19 +401,19 @@ export const getInTouch = [
 export const teamContactDetails = [
   {
     id: uuidv4(),
-    name: "example@mail.com",
-    link: "mailto:example@mail.com",
+    name: "themotorpedia@gmail.com",
+    link: "themotorpedia@gmail.com",
     icon: React.createElement(PiEnvelopeFill),
   },
   {
     id: uuidv4(),
-    name: "(000) 123 456 789",
-    link: "tel:(000) 123 456 789",
+    name: "+91 99999-61887",
+    link: "tel:+91 99999-61887",
     icon: React.createElement(PiPhoneCallFill),
   },
   {
     id: uuidv4(),
-    name: "255 Sheet, City Name Home Land, NY",
+    name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
     link: "",
     icon: React.createElement(PiMapPinFill),
   },

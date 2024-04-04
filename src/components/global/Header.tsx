@@ -56,9 +56,11 @@ function Header() {
             >
               <RiMenuFoldFill />
             </button>
-            <Link to={"/"}>
-              <img src={logo} alt="accupay logo" />
-            </Link>
+            <div className="p-0">
+              <Link to={"/"}>
+                <img src={logo} className="w-48" alt="motorpedia logo" />
+              </Link>
+            </div>
           </div>
           <nav className="max-lg:hidden">
             <ul className="flex justify-center items-center gap-3">
@@ -81,7 +83,7 @@ function Header() {
                         </span>
                       </div>
                       <ul
-                        className={`absolute top-12 left-0 pointer-events-none group-hover:eventunset flex justify-start items-start flex-col w-[200px] py-6 gap-3 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:z-50 bg-s1 text-white/80  rounded-lg ${
+                        className={`absolute top-12 left-0 pointer-events-none group-hover:eventunset flex justify-start items-start flex-col w-[240px] py-6 gap-3 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:z-50 bg-s1 text-white/80  rounded-lg ${
                           menuToggle === menu.id
                             ? "translate-y-0 scale-100"
                             : "translate-y-8 scale-75"
@@ -121,8 +123,8 @@ function Header() {
               <span className="bg-s1 rounded-full text-s2 p-2 md:p-3 text-lg lg:text-2xl">
                 <PiPhoneCallBold />
               </span>
-              <Link to={"tel:+1234 567 896"} className="max-xl:hidden">
-                + 1234 567 865
+              <Link to={"tel:+91 99999-61887"} className="max-xl:hidden">
+                +91 99999-61887
               </Link>
             </div>
             <LinkButton link="/contact" text="Get Started" />
