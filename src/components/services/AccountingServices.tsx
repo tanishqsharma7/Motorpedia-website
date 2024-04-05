@@ -9,7 +9,7 @@ function AccountingServicesSection() {
         <SectionHeadingCenter
           sectionName="Accounting Services"
           sectionTitle="Explore Our Accounting Services"
-          sectionDesc="At AccuPay, our Accounting Services are designed to provide you with a comprehensive and accurate financial picture. "
+          sectionDesc="At Motorpedia, our Accounting Services are designed to provide you with a comprehensive and accurate financial picture. "
         />
         <div className="grid grid-cols-12 stp-15 gap-6">
           {accountingServices.map(({ id, icon, title, desc }, idx) => (

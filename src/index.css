@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ffbf3f;
+  background-color: #270680;
   border-radius: 3px;
 }
 
@@ -148,7 +148,7 @@ p {
 .hero_bg_gradient {
   background: linear-gradient(
     252deg,
-    #1a938a 0%,
+    #1a6393 0%,
     rgba(26, 147, 138, 0) 100.44%
   );
 }

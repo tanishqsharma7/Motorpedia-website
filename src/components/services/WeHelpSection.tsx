@@ -19,7 +19,7 @@ function WeHelpSection() {
             We help you with payroll processing services
           </h1>
           <p className=" text-bodyText pt-4 pb-6 lg:pb-8">
-            At AccuPay, we understand the critical importance of accurate and
+            At Motorpedia, we understand the critical importance of accurate and
             timely payroll processing. Our comprehensive payroll solutions
           </p>
           <h3 className="heading-3 pb-6">Our Payroll Processing Offerings:</h3>

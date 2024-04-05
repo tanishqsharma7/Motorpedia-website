@@ -19,7 +19,7 @@ function PricingSection({ isBgWhite }: { isBgWhite?: boolean }) {
             <SectionHeadingCenter
               sectionName="Pricing"
               sectionTitle="Our Pricing"
-              sectionDesc="At Accupay, we believe in providing clear and flexible pricing
+              sectionDesc="At Motorpedia, we believe in providing clear and flexible pricing
           options tailored to your business needs."
             />
             <div

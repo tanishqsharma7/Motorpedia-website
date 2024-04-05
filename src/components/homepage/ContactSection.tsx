@@ -10,9 +10,9 @@ function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
         <SectionHeadingCenter
           sectionName="Contact"
           sectionTitle="Questions? Meet Ansawer"
-          sectionDesc="Startups thrive with AccuPay. Their flexible payroll solutions have been instrumental in our journey, providing the support"
+          sectionDesc="Startups thrive with Motorpedia. Their flexible payroll solutions have been instrumental in our journey, providing the support"
         />
-        <div className="grid grid-cols-12 gap-6 stp-15">
+        <div className="grid grid-cols-12 gap-6   stp-15">
           {contactCard.map(({ id, icon, title, desc, linkText }, idx) => (
             <div
               key={id}

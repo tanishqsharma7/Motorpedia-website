@@ -10,7 +10,7 @@ function WhatWeDo() {
           <SectionHeadingCenter
             sectionName="What We Do"
             sectionTitle="Payroll services we provide for the client"
-            sectionDesc="At AccuPay, we specialize in delivering comprehensive Accounting and Payroll Processing services"
+            sectionDesc="At Motorpedia, we specialize in delivering comprehensive Accounting and Payroll Processing services"
           />
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">

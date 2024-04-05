@@ -14,11 +14,11 @@ function TaxationSection() {
                 Taxation
               </p>
               <h2 className="display-4 pt-4 pb-6">
-                AccuPay's Taxation Expertise
+                Motorpedia's Taxation Expertise
               </h2>
               <p className=" text-bodyText pb-10">
                 Feel neglected by your accountant? Experience the attentive and
-                personalized service you deserve with AccuPay.
+                personalized service you deserve with Motorpedia.
               </p>
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img

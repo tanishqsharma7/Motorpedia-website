@@ -24,7 +24,7 @@ function NerverWorrySection() {
               Never Worry About Your Accounting Again
             </h1>
             <p className="pt-6 text-bodyText pb-6 xl:pb-8">
-              Experience peace of mind with AccuPay. Our comprehensive
+              Experience peace of mind with Motorpedia. Our comprehensive
               accounting services ensure accuracy and compliance, so you can
               focus on growing your business
             </p>

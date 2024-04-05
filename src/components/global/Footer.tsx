@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { footerLinks, getInTouch, socialLinks } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import logo from "/images/logo_white.png";
+import logo from "/images/logo-white1.png";
 function Footer() {
   return (
     <footer className=" bg-mainTextColor  text-white/60">
@@ -20,7 +20,7 @@ function Footer() {
                 <StaggerEffect id={idx}>
                   <Link
                     className="bg-s1/50 p-3 rounded-full
-                     hover:bg-s1 duration-500 hover:-translate-y-1 block text-white"
+                     hover:bg-s1 duration-500 hover:-translate-y-1 block text-black bg-s2"
                     to={link}
                   >
                     {icon}
@@ -35,7 +35,7 @@ function Footer() {
             className=" xl:pl-30 col-span-12 min-[400px]:col-span-6 lg:col-span-3"
             key={id}
           >
-            <h4 className="heading-4 mb-6 pb-2 relative text-white after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-p1 hover:after:w-[40%] after:duration-500">
+            <h4 className="heading-4 mb-6 pb-2 relative text-white after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-s2 hover:after:w-[40%] after:duration-500">
               {name}
             </h4>
             <ul className="flex flex-col gap-4 md:gap-5">
@@ -59,7 +59,7 @@ function Footer() {
             className="col-span-12 min-[450px]:col-span-6  lg:col-span-3 xl:pl-30 "
             key={id}
           >
-            <h4 className="heading-4 mb-4 md:mb-6 pb-2 relative after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-p1 hover:after:w-[40%] after:duration-500 text-white">
+            <h4 className="heading-4 mb-4 md:mb-6 pb-2 relative after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-s2 hover:after:w-[40%] after:duration-500 text-white">
               {name}
             </h4>
             <ul className="flex flex-col gap-4 md:gap-3">
@@ -91,7 +91,8 @@ function Footer() {
       <div className="border-t border-white/10">
         <div className="container py-6 flex justify-between items-center max-md:flex-col gap-6">
           <p className=" max-sm:text-center">
-            Accupay © Copyright {new Date().getFullYear()}. All Rights Reserved.
+            Motorpedia © Copyright {new Date().getFullYear()}. All Rights
+            Reserved.
           </p>
           <div className="flex justify-end items-center">
             <Link

@@ -11,7 +11,7 @@ function WhatWeDoTaxation() {
               What We Do
             </p>
             <h1 className="display-4  pt-4 ">
-              Why Choose AccuPay for Taxation Services?
+              Why Choose Motorpedia for Taxation Services?
             </h1>
           </div>
           <p className="text-bodyText max-w-[500px]">
