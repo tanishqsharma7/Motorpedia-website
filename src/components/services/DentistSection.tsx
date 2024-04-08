@@ -7,14 +7,13 @@ function DentistSection() {
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-6 xxl:col-span-5 flex justify-start items-start flex-col">
-          <p className="bg-p1 py-3 px-5 rounded-full text-white ">Dentist</p>
-          <h2 className="display-4 pt-4 pb-6">
-            Tailored Solutions for Dentists
-          </h2>
+          <p className="bg-p1 py-3 px-5 rounded-full text-white ">
+            Online marketing
+          </p>
+          <h2 className="display-4 pt-4 pb-6">Drive Your Sales</h2>
           <p className=" text-bodyText pb-6 lg:pb-10">
-            Motorpedia is dedicated to supporting the financial health of your
-            dental practice. From payroll solutions for dental professionals to
-            compliance management,
+            Accelerate your car sales with our expert online marketing
+            strategies. Reach more buyers and drive your business forward today.
           </p>
           <div className="flex justify-center items-center w-full overflow-hidden">
             <img

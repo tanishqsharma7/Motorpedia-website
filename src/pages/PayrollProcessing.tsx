@@ -1,8 +1,10 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 import ContactSection from "../components/homepage/ContactSection";
 import CounterSection from "../components/homepage/CounterSection";
-import StepByStepGuide from "../components/homepage/StepByStepGuide";
+// import StepByStepGuide from "../components/homepage/StepByStepGuide";
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
+import DedicatedSupport from "../components/services/DedicatedSupport";
+import DentistSection from "../components/services/DentistSection";
 import WeHelpSection from "../components/services/WeHelpSection";
 import WhatWeDo from "../components/services/WhatWeDo";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
@@ -14,15 +16,17 @@ function PayrollProcessing() {
       <BreadcrumbSection
         img={breadcrumbImg}
         middlePage="Services"
-        pageName="Payroll Processing"
-        pageDesc="Welcome to AccuPay, your trusted partner for comprehensive financial solutions. Explore our range of services tailored to meet your business needs."
-        pageTitle="Payroll Processing"
+        pageName="DigitalizePro Services"
+        pageDesc="Unlock the power of digital transformation with DigitalizePro Services. Elevate your online presence and streamline operations for maximum efficiency"
+        pageTitle="DigitalizePro Services"
       />
       <WeHelpSection />
       <WhatWeDo />
-      <StepByStepGuide />
-      <CounterSection />
-      <WhyAccoupay />
+      {/* <StepByStepGuide /> */}
+      <DentistSection />
+      <DedicatedSupport />
+      {/* <CounterSection />
+      <WhyAccoupay /> */}
       <ContactSection isPaddingTop={true} />
       <CTASectiont />
     </main>

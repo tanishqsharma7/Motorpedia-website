@@ -12,12 +12,12 @@ function Integrations() {
               Integrations
             </p>
             <h1 className="display-4  pt-4 pb-6">
-              All in One Place All in Sync.
+              Your one place solution to all your motor hardships!
             </h1>
             <p className="text-bodyText">
               Experience seamless coordination with our comprehensive services.
-              From accounting to payroll, we bring everything together in one
-              place,
+              From RTO Services to Technological Integrations, we bring
+              everything together in one place,
             </p>
           </div>
         </div>

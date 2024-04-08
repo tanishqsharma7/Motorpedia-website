@@ -1,17 +1,16 @@
 import { storyData } from "../../data/data";
-import img from "/images/accupay_developer.png";
+import img from "/images/motorpedia_ceo.jpeg";
 
 function StorySection() {
   return (
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 max-lg:gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col justify-center items-start">
-          <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-            Motorpedia Story
-          </p>
+          <p className="bg-p1 py-3 px-5 rounded-full text-white ">Our Story</p>
           <h1 className="display-4 pt-4 pb-6">
-            In 2012, an exciting journey began with a daring vision.
+            In 2024, an exciting journey began with a daring vision.
           </h1>
+          <br></br>
           <p className="uppercase text-bodyText font-medium text-base lg:text-xl">
             message from our ceo.
           </p>
@@ -19,9 +18,13 @@ function StorySection() {
             “A successful team requires members with complementary skill sets.”
           </p>
           <div className="flex justify-start items-center gap-3">
-            <img src={img} alt="" className="rounded-full" />
+            <img
+              src={img}
+              alt=""
+              className="rounded-full w-[100px] h-[100px]"
+            />
             <div className="">
-              <p>Sa Kibb</p>
+              <p>Rajat Upadhyaya</p>
               <p className=" text-bodyText text-sm">CEO Motorpedia</p>
             </div>
           </div>

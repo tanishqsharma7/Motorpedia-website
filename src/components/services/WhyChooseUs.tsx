@@ -7,7 +7,7 @@ function WhyChooseUs() {
       <div className="container">
         <SectionHeadingCenter
           sectionName="Why Choose Us"
-          sectionTitle="Why Choose Motorpedia for Dentist Services?"
+          sectionTitle="Why Choose Motorpedia for RTO Services?"
           sectionDesc="Motorpedia is dedicated to supporting the financial health of your dental practice. From payroll solutions for dental professionals to compliance management,"
         />
         <div className="grid grid-cols-12 gap-6 stp-15">

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { PiPlayFill } from "react-icons/pi";
-import ModalVideo from "react-modal-video";
+
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 import BreadCrumb from "../ui/BreadCrumb";
 import vector from "/images/about_vector.png";
@@ -8,12 +7,12 @@ import circleIcon from "/images/circleIcon.png";
 function AboutSection() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <section className="pt-24 lg:pt-30 sbp-30 bg-softBg1 relative">
-      <img
+    <section className="pt-24 lg:pt-30 sbp-30 bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden relative">
+      {/* <img
         src={circleIcon}
         alt=""
         className="absolute top-60 -left-20 max-lg:h-[400px] max-sm:hidden bg-p1"
-      />
+      /> */}
       <img
         src={vector}
         alt=""
@@ -34,22 +33,22 @@ function AboutSection() {
             </p>
           </div>
         </div>
-        <div className="bg-[url('/images/aboutVideoImg.png')] stp-30 sbp-30 w-[80%] h-[300px] bg-cover md:h-[400px] lg:h-[500px] xl:h-[600px] xxl:h-[800px] flex justify-center items-center z-10 relative after:absolute after:inset-0 after:bg-black/20 ">
+        {/* <div className="bg-[url('/images/aboutVideoImg.png')] stp-30 sbp-30 w-[80%] h-[300px] bg-cover md:h-[400px] lg:h-[500px] xl:h-[600px] xxl:h-[800px] flex justify-center items-center z-10 relative after:absolute after:inset-0 after:bg-black/20 ">
           <button
             onClick={() => setOpen(true)}
             className=" bg-softBg1 text-p1 p-6 lg:p-7 rounded-full text-3xl lg:text-4xl hover:bg-s2 hover:text-white duration-500 relative z-20"
           >
             <PiPlayFill />
           </button>
-        </div>
+        </div> */}
       </div>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="ERyzAnU62hU"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </section>
   );
 }

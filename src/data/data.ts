@@ -115,7 +115,19 @@ export const headerMenu = [
     link: "/",
     isSubmenu: false,
   },
+  {
+    id: uuidv4(),
+    name: "About Us",
+    link: "/about",
+    isSubmenu: false,
+  },
 
+  {
+    id: uuidv4(),
+    name: "Contact",
+    link: "/contact",
+    isSubmenu: false,
+  },
   {
     id: uuidv4(),
     name: "Services",
@@ -158,100 +170,93 @@ export const headerMenu = [
       // },
     ],
   },
-  {
-    id: uuidv4(),
-    name: "Shop",
-    isSubmenu: true,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Shop Page",
-        link: "/shop",
-      },
-      {
-        id: uuidv4(),
-        name: "Shop Details",
-        link: "/shop/shop-details",
-      },
-      {
-        id: uuidv4(),
-        name: "Cart",
-        link: "/cart",
-      },
-      {
-        id: uuidv4(),
-        name: "Checkout",
-        link: "/checkout",
-      },
-    ],
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "Shop",
+  //   isSubmenu: true,
+  //   submenu: [
+  //     {
+  //       id: uuidv4(),
+  //       name: "Shop Page",
+  //       link: "/shop",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       name: "Shop Details",
+  //       link: "/shop/shop-details",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       name: "Cart",
+  //       link: "/cart",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       name: "Checkout",
+  //       link: "/checkout",
+  //     },
+  //   ],
+  // },
 
-  {
-    id: uuidv4(),
-    name: "Blog",
-    isSubmenu: true,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Blog Page",
-        link: "/blog",
-      },
+  // {
+  //   id: uuidv4(),
+  //   name: "Blog",
+  //   isSubmenu: true,
+  //   submenu: [
+  //     {
+  //       id: uuidv4(),
+  //       name: "Blog Page",
+  //       link: "/blog",
+  //     },
 
-      {
-        id: uuidv4(),
-        name: "Blog Details",
-        link: "/blog-details",
-      },
-    ],
-  },
-
-  {
-    id: uuidv4(),
-    name: "Contact",
-    link: "/contact",
-    isSubmenu: false,
-  },
+  //     {
+  //       id: uuidv4(),
+  //       name: "Blog Details",
+  //       link: "/blog-details",
+  //     },
+  //   ],
+  // },
 
   {
     id: uuidv4(),
     name: "Pages",
     isSubmenu: true,
     submenu: [
-      {
-        id: uuidv4(),
-        name: "Appointment",
-        link: "/appointment",
-      },
-      {
-        id: uuidv4(),
-        name: "Case Study",
-        link: "/case-study",
-      },
-      {
-        id: uuidv4(),
-        name: "Case Study Detials",
-        link: "/case-study/case-study-details",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Appointment",
+      //   link: "/appointment",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Case Study",
+      //   link: "/case-study",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Case Study Detials",
+      //   link: "/case-study/case-study-details",
+      // },
       {
         id: uuidv4(),
         name: "Our Team",
         link: "/team",
       },
-      {
-        id: uuidv4(),
-        name: "Team Details",
-        link: "/team/team-details",
-      },
-      {
-        id: uuidv4(),
-        name: "About",
-        link: "/about",
-      },
-      {
-        id: uuidv4(),
-        name: "Pricing",
-        link: "/pricing",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Team Details",
+      //   link: "/team/team-details",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "About",
+      //   link: "/about",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Pricing",
+      //   link: "/pricing",
+      // },
       {
         id: uuidv4(),
         name: "FAQ Page",
@@ -277,11 +282,11 @@ export const headerMenu = [
         name: "Terms & Conditions",
         link: "/terms-conditions",
       },
-      {
-        id: uuidv4(),
-        name: "Error",
-        link: "/error",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Error",
+      //   link: "/error",
+      // },
     ],
   },
 ];
@@ -347,24 +352,29 @@ export const footerLinks = [
     links: [
       {
         id: uuidv4(),
+        name: "All Services",
+        link: "/services",
+      },
+      {
+        id: uuidv4(),
         name: "DigitalizePro Services",
-        link: "/services/accounting-services",
+        link: "/services/payroll-processing",
       },
       {
         id: uuidv4(),
         name: "RTO Services",
-        link: "/services/taxation-services",
+        link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
         name: "Sale Enablement Services",
-        link: "/services/healthcare-services",
+        link: "/services/taxation-services",
       },
-      {
-        id: uuidv4(),
-        name: "Dentist Services",
-        link: "/services/dentist-services",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Dentist Services",
+      //   link: "/services/dentist-services",
+      // },
     ],
   },
 ];
@@ -422,22 +432,22 @@ export const teamContactDetails = [
 export const solutionsFeatures = [
   {
     id: uuidv4(),
-    name: "Tax Preparation",
+    name: "Ownership Transfer",
     icon: React.createElement(AiFillFileText),
   },
   {
     id: uuidv4(),
-    name: "Payroll Processing",
+    name: "Insurance Transfer",
     icon: React.createElement(PiHandCoinsFill),
   },
   {
     id: uuidv4(),
-    name: "Cost Effective",
+    name: "NOC Issuance",
     icon: React.createElement(PiLightbulbFilamentFill),
   },
   {
     id: uuidv4(),
-    name: "Scale Rapidly",
+    name: "Challan Issuance",
     icon: React.createElement(PiRocketLaunchFill),
   },
 ];
@@ -446,46 +456,46 @@ export const featuresCard = [
   {
     id: uuidv4(),
     icon: React.createElement(FaUsers),
-    name: "EOR employees",
-    desc: "Easily hire and pay employees where you don’t have entities with Jonny’s world-wide infrastructure.",
+    name: "RTO Assistance Network",
+    desc: "Unorganized agent network catering to different RTO related needs…",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    name: "Global Payroll",
-    desc: "Streamline your global payroll with precision and compliance. Our expert services ensure accurate and timely.",
+    name: "Vendor Multiplicity",
+    desc: "Leads to multiple vendors and often requires large, dedicated teams to efficiently manage them effectively",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserGearFill),
-    name: "Contractors",
-    desc: "Reliable contractors delivering quality craftsmanship and exceptional service. Your perfect project,",
+    name: "Uncertainty",
+    desc: "The disorganized agent network leads to reliance on numerous vendors and lacks visibility on task completion dates",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserPlusFill),
-    name: "Direct employees",
-    desc: "Maximize workforce efficiency with our Direct Employees services. Streamline hiring, payroll,",
+    name: "Complexity",
+    desc: "In addition, the absence of standardized billing procedures compliant with GST regulations adds further complexity",
   },
 ];
 
 export const stepByStepCard = [
   {
     id: uuidv4(),
-    title: "Create An Account",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Native Dealership with limited horizon",
+    desc: "The basic need of survival is evolution, but this quote doesn't feel apt when it comes to car dealerships. Nowadays too may dealerships follow native and prokaryotic practices with limited resources.",
     icon: React.createElement(PiFilePlusFill),
   },
   {
     id: uuidv4(),
-    title: "Add Your Employees",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Integrate Motorpedia's Tools",
+    desc: "With Motorpedia Tool's integration, one can boost their performance using their hassle free services and dealer driven approach to help them grow!",
     icon: React.createElement(PiUserFill),
   },
   {
     id: uuidv4(),
-    title: "Run Your First Payroll",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Enhanced and easy dealing with more interactions",
+    desc: "Retention rate and customer satisfaction increases after Motorpedia's Tools integration. The dealer find hassle free transfers and revolutionary services.",
     icon: React.createElement(PiHandCoinsFill),
   },
 ];
@@ -494,33 +504,51 @@ export const whyMotorpediaCard = [
   {
     id: uuidv4(),
     img: whyMotorpediaCard1,
-    title: "Hire or relocate team member with in house visa support",
+    title: "Basic Ownership Transfer",
+    des: "Hire or relocate team member with in house visa support",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard2,
-    title: "Create complaint contracts with a single click very easyly",
+    title: "Interstate NOC Issuance",
+    des: "Hire or relocate team member with in house visa support",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard3,
-    title: "Send equipment worldwide, without the hassle free work",
+    title: "Vehicle Permit Changes",
+    des: "Hire or relocate team member with in house visa support",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard4,
-    title: "Offer country- specific benefits at competitive rates",
+    title: "Hypothecation Addition",
+    des: "Hire or relocate team member with in house visa support",
   },
-  {
-    id: uuidv4(),
-    img: whyMotorpediaCard5,
-    title: "Provide your team with co-working access via work life",
-  },
-  {
-    id: uuidv4(),
-    img: whyMotorpediaCard6,
-    title: "Save time using our advance integrations technologies.",
-  },
+  // {
+  //   id: uuidv4(),
+  //   img: whyMotorpediaCard1,
+  //   title: "Fancy Number Booking",
+  //   des: "Hire or relocate team member with in house visa support",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: whyMotorpediaCard2,
+  //   title: "Challan Clearance",
+  //   des: "Hire or relocate team member with in house visa support",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: whyMotorpediaCard3,
+  //   title: "Insurance Transfer & Endorsement",
+  //   des: "Hire or relocate team member with in house visa support",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: whyMotorpediaCard4,
+  //   title: "Scrap Vehicle Deregistration",
+  //   des: "Hire or relocate team member with in house visa support",
+  // },
 ];
 
 export const faqs = [
@@ -528,31 +556,29 @@ export const faqs = [
     id: uuidv4(),
     question: "What services does Motorpedia offer?",
     answer:
-      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including Ownership Transfer, Challan CLearance, VIP Numbers, Digitalization of Showrooms, and many more.",
   },
   {
     id: uuidv4(),
-    question: "How does the accounting process work?",
+    question: "How does time does ownership transfer take?",
     answer:
-      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Usually we try to do it in 24 hours but we take 24-48 hours as the window for the same.",
   },
   {
     id: uuidv4(),
-    question: "Can Motorpedia handle international payroll?",
-    answer:
-      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+    question: "Can Motorpedia handle interstate transfers?",
+    answer: "Yes! We currently are active in UP, Haryana and Delhi.",
   },
   {
     id: uuidv4(),
     question: "How quickly can services be initiated?",
-    answer:
-      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+    answer: "As soon as you wish to!",
   },
   {
     id: uuidv4(),
     question: "How do I get in touch with Motorpedia's?",
     answer:
-      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "You can either write to us at themotorpedia@gmail.com or can even see us at TR24, JMD Empire Square, MG Road, Gurgaon-122001",
   },
 ];
 
@@ -719,32 +745,37 @@ export const integrationsCard = [
   {
     id: uuidv4(),
     icon: React.createElement(HiCurrencyDollar),
-    title: "Payment Gateways",
-    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
+    title: "Best Payment Integrations",
+    description:
+      "With our best in class payment integrations, we strive to deliver best work at minimal cost.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMoneyFill),
-    title: "Tax Software Integration",
-    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
+    title: "Online Brand Recognition",
+    description:
+      "With online recognition of your brand, you'll take the step ahead of everyone.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Expense Management",
-    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
+    title: "Most Integration Services",
+    description:
+      "We provide a huge pool of services ranging from ownership transfer to VIP numbers, you just name it!",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
-    title: "Time Tracking Systems",
-    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
+    title: "Time Efficient Solution",
+    description:
+      "Our hardworking team and trustworthy contact work timelssly to deliver the solution in least possible time so that you get to spent some more minutes enjoying your ride.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
-    title: "Customer Relationship",
-    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
+    title: "Best Customer Relationship",
+    description:
+      "Our testimonials are our laurels.With best in class Customer Support, we'd never let you down!",
   },
 ];
 
@@ -830,67 +861,67 @@ export const coreServices = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Accounting Services",
-    link: "/services/accounting-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiHandCoinsFill),
-    title: "Payroll Processing",
+    title: "DigitalizePro Services",
     link: "/services/payroll-processing",
     desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
   },
   {
     id: uuidv4(),
+    icon: React.createElement(PiHandCoinsFill),
+    title: "RTO Services",
+    link: "/services/accounting-services",
+    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+  },
+  {
+    id: uuidv4(),
     icon: React.createElement(PiFileFill),
-    title: "Taxation services",
+    title: "Sale Enablement",
     link: "/services/taxation-services",
     desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
   },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiBuildingsFill),
-    title: "Real Estate Services",
-    link: "/services/real-state-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiHeartbeatFill),
-    title: "Healthcare Services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-    link: "/services/healthcare-services",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiToothFill),
-    title: "Dentist Services",
-    link: "/services/dentist-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  },
+  // {
+  //   id: uuidv4(),
+  //   icon: React.createElement(PiBuildingsFill),
+  //   title: "Real Estate Services",
+  //   link: "/services/real-state-services",
+  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   icon: React.createElement(PiHeartbeatFill),
+  //   title: "Healthcare Services",
+  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+  //   link: "/services/healthcare-services",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   icon: React.createElement(PiToothFill),
+  //   title: "Dentist Services",
+  //   link: "/services/dentist-services",
+  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+  // },
 ];
 
 export const whatWeDo = [
   {
     id: uuidv4(),
-    title: "Payroll Processing Services",
-    desc: "Efficiently manage your payroll with our state-of-the-art processing services. From accurate salary disbursements.",
+    title: "Target Audience Identification",
+    desc: "Pinpoint your ideal customer base through thorough market analysis and demographic research, ensuring precise targeting for effective lead generation",
   },
   {
     id: uuidv4(),
-    title: "Accounting and Bookkeeping",
-    desc: "Navigate the complexities of financial management with our professional accounting and bookkeeping services. ",
+    title: "Engaging Content Creation",
+    desc: "Craft compelling and relevant content tailored to your audience's needs and preferences, capturing their attention and encouraging them to take action",
   },
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation and filing services. We handle all necessary documentation.",
+    title: "Multi-Channel Promotion",
+    desc: "Utilize a variety of digital channels such as social media, email marketing, SEO, and PPC advertising to reach potential leads wherever they may be online",
   },
   {
     id: uuidv4(),
-    title: "Financial Advisory",
-    desc: "Empower your business with strategic financial guidance. Our experienced advisors provide insights and recommendations.",
+    title: "Data-Driven Optimization",
+    desc: "Continuously analyze and refine your lead generation strategies based on real-time data insights, maximizing efficiency and ROI for sustainable business growth",
   },
 ];
 
@@ -1111,26 +1142,26 @@ export const dentistSectionFeatures = [
   {
     id: uuidv4(),
     icon: React.createElement(PiToothFill),
-    title: "Payroll for Dental Professionals",
-    desc: "Accurate and efficient payroll processing tailored to meet the unique needs of dental professionals. Ensure your dedicated team",
+    title: "Targeted Advertising",
+    desc: " Reach potential car buyers precisely where they are, leveraging advanced targeting tools to maximize exposure and engagement.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Compliance Management",
-    desc: "Stay compliant with the ever-evolving regulations in the dental industry. Our services include compliance management",
+    title: "Compelling Content Creation",
+    desc: "Captivate audiences with visually stunning imagery, informative videos, and persuasive copywriting, enticing them to explore your inventory further.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Financial Advisory for Dental Practices",
-    desc: "Navigate the financial landscape of dental care with our expert advisory services. From budgeting to strategic planning,",
+    title: "Search Engine Optimization (SEO)",
+    desc: "Enhance your website's visibility on search engines, ensuring that your car listings rank prominently for relevant search queries.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Dental Consulting",
-    desc: "Receive personalized consulting services to address the unique challenges of your dental practice.",
+    title: "Social Media Engagement",
+    desc: " Leverage the power of social media platforms to build brand awareness, engage with potential buyers, and showcase your inventory in an interactive and appealing manner",
   },
 ];
 
@@ -1272,44 +1303,44 @@ export const teamSkills = [
   },
 ];
 
-export const shopPage = [
-  {
-    id: uuidv4(),
-    img: productImg1,
-    name: "Accounting Software",
-    price: "756",
-  },
-  {
-    id: uuidv4(),
-    img: productImg2,
-    name: "Online Courses",
-    price: "637",
-  },
-  {
-    id: uuidv4(),
-    img: productImg3,
-    name: "Payroll Processing Tools",
-    price: "948",
-  },
-  {
-    id: uuidv4(),
-    img: productImg4,
-    name: "Educational Resources",
-    price: "402",
-  },
-  {
-    id: uuidv4(),
-    img: productImg5,
-    name: "Templates and Forms",
-    price: "782",
-  },
-  {
-    id: uuidv4(),
-    img: productImg6,
-    name: "Tax Compliance",
-    price: "573",
-  },
-];
+// export const shopPage = [
+//   {
+//     id: uuidv4(),
+//     img: productImg1,
+//     name: "Accounting Software",
+//     price: "756",
+//   },
+//   {
+//     id: uuidv4(),
+//     img: productImg2,
+//     name: "Online Courses",
+//     price: "637",
+//   },
+//   {
+//     id: uuidv4(),
+//     img: productImg3,
+//     name: "Payroll Processing Tools",
+//     price: "948",
+//   },
+//   {
+//     id: uuidv4(),
+//     img: productImg4,
+//     name: "Educational Resources",
+//     price: "402",
+//   },
+//   {
+//     id: uuidv4(),
+//     img: productImg5,
+//     name: "Templates and Forms",
+//     price: "782",
+//   },
+//   {
+//     id: uuidv4(),
+//     img: productImg6,
+//     name: "Tax Compliance",
+//     price: "573",
+//   },
+// ];
 
 export const blogList = [
   {
@@ -1426,7 +1457,7 @@ export const contactPageCard = [
   {
     id: uuidv4(),
     icon: React.createElement(PiEnvelopeFill),
-    name: "Chat to Sales",
+    name: "Write to Us",
     linkText: "themotorpedia@gmail.com",
     link: "mailto:themotorpedia@gmail.com",
   },

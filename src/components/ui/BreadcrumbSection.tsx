@@ -19,7 +19,7 @@ function BreadcrumbSection({
   pageName: string;
 }) {
   return (
-    <section className="stp-30 bg-softBg1 relative max-xxl:overflow-hidden">
+    <section className="stp-30 relative max-xxl:overflow-hidden bg-[url(/images/texture.png)] bg-repeat hero_bg_gradient overflow-hidden">
       <img
         src={breadcrumbIcon}
         alt=""

@@ -4,25 +4,25 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 import img from "/images/we_help.png";
 
 const offeringsItems = [
-  "Efficient Payroll Management",
-  "Compliance Assurance",
-  "Direct Deposit Service",
-  "Tax Filing and Reporting",
-  "Employee Self-Service Portals",
+  "Immersive Virtual Showroom",
+  "Interactive Experience",
+  "Personalized Recommendations",
+  "Seamless Booking",
+  "Expert Assistance",
 ];
 function WeHelpSection() {
   return (
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-6">
-          <h1 className="display-4">
-            We help you with payroll processing services
-          </h1>
+          <h1 className="display-4">Digital Showroom</h1>
           <p className=" text-bodyText pt-4 pb-6 lg:pb-8">
-            At Motorpedia, we understand the critical importance of accurate and
-            timely payroll processing. Our comprehensive payroll solutions
+            Experience automotive excellence redefined at Digital Showroom. Our
+            immersive digital platform brings the showroom to your fingertips,
+            offering a seamless exploration of top-tier vehicles with
+            unparalleled convenience and sophistication
           </p>
-          <h3 className="heading-3 pb-6">Our Payroll Processing Offerings:</h3>
+          <h3 className="heading-3 pb-6">Our Digital Showroom Offerings:</h3>
           <ul className="flex flex-col gap-5 justify-start items-start">
             {offeringsItems.map((item, idx) => (
               <li key={idx}>

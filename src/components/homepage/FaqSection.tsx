@@ -3,7 +3,7 @@ import AnimateHeight from "react-animate-height";
 import { AiOutlineMinus } from "react-icons/ai";
 import { faqs } from "../../data/data";
 import SectionHeadingCenter from "../global/SectionHeadingCenter";
-import faqIllus from "/images/faq_illus.png";
+import faqIllus from "/images/faq.png";
 import sliceIcon from "/images/sliceIcon.png";
 
 function FaqSection() {

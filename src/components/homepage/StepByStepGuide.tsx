@@ -9,7 +9,7 @@ function StepByStepGuide() {
       <div className="container">
         <SectionHeadingCenter
           sectionName="How it works"
-          sectionTitle="A Step-by-Step Guide to Our Platform"
+          sectionTitle="Transform your dealership with just few mouse clicks!"
           sectionDesc="Explore our platform with ease! Sign up, select your industry, and
               seamlessly integrate our tailored payment solutions."
         />

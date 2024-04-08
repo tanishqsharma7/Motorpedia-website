@@ -100,46 +100,46 @@ export const router = createBrowserRouter([
         path: "/team/team-details",
         element: <TeamDetailsPage />,
       },
-      {
-        path: "/shop",
-        element: <ShopPage />,
-      },
-      {
-        path: "/shop/:name",
-        element: <ShopDetailsPage />,
-      },
-      {
-        path: "/shop/shop-details",
-        element: <ShopDetailsPage />,
-      },
-      {
-        path: "/cart",
-        element: <CartPage />,
-      },
-      {
-        path: "/checkout",
-        element: <CheckoutPage />,
-      },
-      {
-        path: "/blog",
-        element: <BlogPage />,
-      },
-      {
-        path: "/blog/:name",
-        element: <BlogDetailsPage />,
-      },
-      {
-        path: "/blog-details",
-        element: <BlogDetailsPage />,
-      },
+      // {
+      //   path: "/shop",
+      //   element: <ShopPage />,
+      // },
+      // {
+      //   path: "/shop/:name",
+      //   element: <ShopDetailsPage />,
+      // },
+      // {
+      //   path: "/shop/shop-details",
+      //   element: <ShopDetailsPage />,
+      // },
+      // {
+      //   path: "/cart",
+      //   element: <CartPage />,
+      // },
+      // {
+      //   path: "/checkout",
+      //   element: <CheckoutPage />,
+      // },
+      // {
+      //   path: "/blog",
+      //   element: <BlogPage />,
+      // },
+      // {
+      //   path: "/blog/:name",
+      //   element: <BlogDetailsPage />,
+      // },
+      // {
+      //   path: "/blog-details",
+      //   element: <BlogDetailsPage />,
+      // },
       {
         path: "/faq",
         element: <FAQPage />,
       },
-      {
-        path: "/pricing",
-        element: <PricingPage />,
-      },
+      // {
+      //   path: "/pricing",
+      //   element: <PricingPage />,
+      // },
       {
         path: "/contact",
         element: <ContactPage />,
