@@ -7,7 +7,7 @@ function StorySection() {
       <div className="container grid grid-cols-12 max-lg:gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col justify-center items-start">
           <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-            Accupay Story
+            Motorpedia Story
           </p>
           <h1 className="display-4 pt-4 pb-6">
             In 2012, an exciting journey began with a daring vision.
@@ -22,7 +22,7 @@ function StorySection() {
             <img src={img} alt="" className="rounded-full" />
             <div className="">
               <p>Sa Kibb</p>
-              <p className=" text-bodyText text-sm">CEO Accupay</p>
+              <p className=" text-bodyText text-sm">CEO Motorpedia</p>
             </div>
           </div>
         </div>

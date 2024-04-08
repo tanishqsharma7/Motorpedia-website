@@ -19,7 +19,7 @@ function AccountSection() {
               </h1>
               <p className=" text-bodyText pb-6 lg:pb-8">
                 Feel neglected by your accountant? Experience the attentive and
-                personalized service you deserve with AccuPay.
+                personalized service you deserve with Motorpedia.
               </p>
 
               <ul className="flex flex-col gap-6 justify-start items-start w-full">

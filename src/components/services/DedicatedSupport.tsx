@@ -18,10 +18,10 @@ function DedicatedSupport() {
           </p>
           <h2 className="display-4 pt-4 pb-6">Run a Smarter Dental Practice</h2>
           <p className=" text-bodyText pb-8">
-            At Accupay, we don’t think payroll should feel like pulling teeth.
-            That’s why we’ve made the process as painless as possible. But if
-            you should have any questions, our best-in-class support team is
-            just a call, chat, or email away.
+            At Motorpedia, we don’t think payroll should feel like pulling
+            teeth. That’s why we’ve made the process as painless as possible.
+            But if you should have any questions, our best-in-class support team
+            is just a call, chat, or email away.
           </p>
           <LinkButton link="/contact" text="Contact Us" />
         </div>

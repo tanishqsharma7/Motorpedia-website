@@ -12,7 +12,7 @@ function DentistSection() {
             Tailored Solutions for Dentists
           </h2>
           <p className=" text-bodyText pb-6 lg:pb-10">
-            AccuPay is dedicated to supporting the financial health of your
+            Motorpedia is dedicated to supporting the financial health of your
             dental practice. From payroll solutions for dental professionals to
             compliance management,
           </p>

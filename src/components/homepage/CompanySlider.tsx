@@ -1,15 +1,30 @@
 // Import Swiper styles
 import "swiper/css";
 // Import Swiper React components
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import logo1 from "/images/logo1.png";
-import logo2 from "/images/logo2.png";
-import logo3 from "/images/logo3.png";
-import logo4 from "/images/logo4.png";
+import logo1 from "/images/cars24.png";
+import logo2 from "/images/spinny.jpg";
+import logo3 from "/images/mfc.png";
+import logo4 from "/images/bbt.png";
+import logo5 from "/images/bikespe.jpg";
+import logo6 from "/images/carghar.png";
 
-const sponsorsImg = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4];
+const sponsorsImg = [
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+];
 
 function CompanySlider() {
   return (
@@ -66,9 +81,9 @@ function CompanySlider() {
         >
           {sponsorsImg.map((item, idx) => (
             <SwiperSlide key={idx}>
-              <Link to={"#"} className=" flex justify-center items-center">
+              <div className=" flex justify-center items-center">
                 <img src={item} alt="sponsor image" />
-              </Link>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

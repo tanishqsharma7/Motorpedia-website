@@ -26,8 +26,8 @@ function ManageHealthSection() {
               <FadeTop>
                 <p className="text-bodyText pb-8">
                   Discover the freedom to oversee and optimize your home health
-                  care operations from anywhere with AccuPay's mobile-friendly
-                  management solutions.
+                  care operations from anywhere with Motorpedia's
+                  mobile-friendly management solutions.
                 </p>
               </FadeTop>
               <ul className="grid grid-cols-2 gap-6">

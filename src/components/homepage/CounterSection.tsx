@@ -10,7 +10,7 @@ function CounterSection() {
           </p>
           <p>
             Average time saved per month running payroll and HR after switching
-            to Accupay.
+            to Motorpedia.
           </p>
         </div>
         <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>
@@ -20,7 +20,7 @@ function CounterSection() {
           </p>
           <p>
             Average savings made per year running payroll and HR after switching
-            to Accupay.
+            to Motorpedia.
           </p>
         </div>
         <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>
@@ -28,7 +28,7 @@ function CounterSection() {
           <p className="display-4 pb-3">
             <NumberCounter start={1} end={8} /> Weeks
           </p>
-          <p>average time it takes to switch to Accupay - and often less</p>
+          <p>average time it takes to switch to Motorpedia - and often less</p>
         </div>
       </div>
     </section>

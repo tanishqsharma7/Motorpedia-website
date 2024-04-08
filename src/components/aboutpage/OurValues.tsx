@@ -8,7 +8,7 @@ function OurValues() {
         <SectionHeadingCenter
           sectionName="Our Values"
           sectionTitle="Our Values"
-          sectionDesc="At AccuPay, our values are the foundation of everything we do. They reflect our commitment to excellence, integrity, and client success."
+          sectionDesc="At Motorpedia, our values are the foundation of everything we do. They reflect our commitment to excellence, integrity, and client success."
         />
         <div className="grid grid-cols-12 gap-6 stp-15">
           {ourValues.map(({ id, icon, title, desc }) => (

@@ -14,7 +14,7 @@ function BlogSection() {
               News & Blog
             </p>
             <h1 className="display-4  pt-4 pb-6">
-              Stay updates with Accupay News
+              Stay updates with Motorpedia News
             </h1>
             <p className="text-">
               Stay informed and empowered with our latest articles on

@@ -44,7 +44,7 @@ function ContactPage() {
           {contactPageCard.map(
             ({ id, icon, name, link, address, linkText }) => (
               <div
-                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-s2 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
+                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
                 key={id}
               >
                 <div
@@ -148,12 +148,15 @@ function ContactPage() {
                 <PiMapPinFill />
               </div>
               <div className="">
-                <h4 className="heading-4 pb-1">New York, USA:</h4>
-                <p>29 Park Avenue New York, New York 172</p>
+                <h4 className="heading-4 pb-1">Gurugram :</h4>
+                <p>
+                  TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram -
+                  122001
+                </p>
               </div>
             </li>
 
-            <li className="flex justify-start items-start gap-3  ">
+            {/* <li className="flex justify-start items-start gap-3  ">
               <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
                 <PiMapPinFill />
               </div>
@@ -161,9 +164,9 @@ function ContactPage() {
                 <h4 className="heading-4 pb-1">Switzerland, Bern:</h4>
                 <p>30 Stamford Street,London SE1 9LQ</p>
               </div>
-            </li>
+            </li> */}
 
-            <li className="flex justify-start items-start gap-3  ">
+            {/* <li className="flex justify-start items-start gap-3  ">
               <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
                 <PiMapPinFill />
               </div>
@@ -171,7 +174,7 @@ function ContactPage() {
                 <h4 className="heading-4 pb-1">New York, USA:</h4>
                 <p>891 Daudkandi, Chattogram 58201</p>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
 

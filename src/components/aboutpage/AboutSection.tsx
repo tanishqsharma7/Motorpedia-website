@@ -12,7 +12,7 @@ function AboutSection() {
       <img
         src={circleIcon}
         alt=""
-        className="absolute top-60 -left-20 max-lg:h-[400px] max-sm:hidden"
+        className="absolute top-60 -left-20 max-lg:h-[400px] max-sm:hidden bg-p1"
       />
       <img
         src={vector}
@@ -26,11 +26,11 @@ function AboutSection() {
         <div className="flex justify-center items-center pb-10 lg:pb-16 xl:pb-24">
           <div className="  max-w-[600px] text-center flex justify-center items-center flex-col">
             <p className="bg-p1 py-3 px-5 rounded-full text-white ">About</p>
-            <h1 className="display-4  pt-4 pb-6">Work with AccuPay</h1>
+            <h1 className="display-4  pt-4 pb-6">Work with Motorpedia</h1>
             <p className="text-bodyText">
-              Welcome to AccuPay, where financial excellence meets personalized
-              service. At AccuPay, we understand the intricacies of accounting
-              and payroll processing.
+              Welcome to Motorpedia, where financial excellence meets
+              personalized service. At Motorpedia, we understand the intricacies
+              of accounting and payroll processing.
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ function SolutionsSection() {
       <img
         src={circleIcon}
         alt=""
-        className="absolute top-10 left-0 max-xxl:hidden xxl:-left-72 xxxl:-left-40 "
+        className="absolute top-10 left-0 max-xxl:hidden xxl:-left-72 xxxl:-left-40"
       />
       <img
         src={sliceIcon}
@@ -22,9 +22,8 @@ function SolutionsSection() {
         <div className="flex justify-center items-center">
           <SectionHeadingCenter
             sectionName="Solutions"
-            sectionTitle="The global payroll solution"
-            sectionDesc="When it comes to payroll solutions, we have a variety of options
-            that benefit both your company and your contractor."
+            sectionTitle="Why digital engagement matters."
+            sectionDesc="In today’s hyper-competitive retailing environment, the battle for shopper attention has never been greater. With myriad alternatives just a click away, the buyer journey has become increasingly complex. That means delivering consistent and engaging experiences at every touchpoint is now critical to keeping the attention of prospective buyers. And with more and more consumers making purchase decisions without ever seeing a vehicle in person, Digital Engagement has become a key driver of retailer success. Industry leaders are reimagining their entire omnichannel retail experience. What are you waiting for?"
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
