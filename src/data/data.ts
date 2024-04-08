@@ -55,8 +55,8 @@ import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
 import whyMotorpediaCard2 from "/images/whyAccoupayCard_2.png";
 import whyMotorpediaCard3 from "/images/whyAccoupayCard_3.png";
 import whyMotorpediaCard4 from "/images/whyAccoupayCard_4.png";
-import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
-import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
+// import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
+// import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -90,12 +90,12 @@ import teamPic4 from "/images/team_image4.png";
 import teamPic5 from "/images/team_image5.png";
 import teamPic6 from "/images/team_image6.png";
 
-import productImg1 from "/images/produc_Img1.png";
-import productImg2 from "/images/produc_Img2.png";
-import productImg3 from "/images/produc_Img3.png";
-import productImg4 from "/images/produc_Img4.png";
-import productImg5 from "/images/produc_Img5.png";
-import productImg6 from "/images/produc_Img6.png";
+// import productImg1 from "/images/produc_Img1.png";
+// import productImg2 from "/images/produc_Img2.png";
+// import productImg3 from "/images/produc_Img3.png";
+// import productImg4 from "/images/produc_Img4.png";
+// import productImg5 from "/images/produc_Img5.png";
+// import productImg6 from "/images/produc_Img6.png";
 
 import blogPageImg1 from "/images/blog_img1.png";
 import blogPageImg2 from "/images/blog_img2.png";
@@ -1303,44 +1303,44 @@ export const teamSkills = [
   },
 ];
 
-// export const shopPage = [
-//   {
-//     id: uuidv4(),
-//     img: productImg1,
-//     name: "Accounting Software",
-//     price: "756",
-//   },
-//   {
-//     id: uuidv4(),
-//     img: productImg2,
-//     name: "Online Courses",
-//     price: "637",
-//   },
-//   {
-//     id: uuidv4(),
-//     img: productImg3,
-//     name: "Payroll Processing Tools",
-//     price: "948",
-//   },
-//   {
-//     id: uuidv4(),
-//     img: productImg4,
-//     name: "Educational Resources",
-//     price: "402",
-//   },
-//   {
-//     id: uuidv4(),
-//     img: productImg5,
-//     name: "Templates and Forms",
-//     price: "782",
-//   },
-//   {
-//     id: uuidv4(),
-//     img: productImg6,
-//     name: "Tax Compliance",
-//     price: "573",
-//   },
-// ];
+export const shopPage = [
+  {
+    id: uuidv4(),
+    img: "",
+    name: "",
+    price: "",
+  },
+  //   {
+  //     id: uuidv4(),
+  //     img: productImg2,
+  //     name: "Online Courses",
+  //     price: "637",
+  //   },
+  //   {
+  //     id: uuidv4(),
+  //     img: productImg3,
+  //     name: "Payroll Processing Tools",
+  //     price: "948",
+  //   },
+  //   {
+  //     id: uuidv4(),
+  //     img: productImg4,
+  //     name: "Educational Resources",
+  //     price: "402",
+  //   },
+  //   {
+  //     id: uuidv4(),
+  //     img: productImg5,
+  //     name: "Templates and Forms",
+  //     price: "782",
+  //   },
+  //   {
+  //     id: uuidv4(),
+  //     img: productImg6,
+  //     name: "Tax Compliance",
+  //     price: "573",
+  //   },
+];
 
 export const blogList = [
   {

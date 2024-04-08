@@ -1,11 +1,11 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 import BreadCrumb from "../ui/BreadCrumb";
 import vector from "/images/about_vector.png";
-import circleIcon from "/images/circleIcon.png";
+// import circleIcon from "/images/circleIcon.png";
 function AboutSection() {
-  const [isOpen, setOpen] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
   return (
     <section className="pt-24 lg:pt-30 sbp-30 bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden relative">
       {/* <img

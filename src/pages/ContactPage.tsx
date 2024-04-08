@@ -10,7 +10,7 @@ import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
 import breadcrumpIllus from "/images/breadcrumb_img_21.png";
-import locationImg from "/images/contact_page_img.png";
+// import locationImg from "/images/contact_page_img.png";
 
 function ContactPage() {
   const [firstName, setFirstName] = useState("");

@@ -1,8 +1,8 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 import ContactSection from "../components/homepage/ContactSection";
-import CounterSection from "../components/homepage/CounterSection";
+// import CounterSection from "../components/homepage/CounterSection";
 // import StepByStepGuide from "../components/homepage/StepByStepGuide";
-import WhyAccoupay from "../components/homepage/WhyAccoupay";
+// import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import DedicatedSupport from "../components/services/DedicatedSupport";
 import DentistSection from "../components/services/DentistSection";
 import WeHelpSection from "../components/services/WeHelpSection";
