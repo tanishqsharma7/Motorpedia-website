@@ -6,16 +6,14 @@ import FaqSection from "../components/homepage/FaqSection";
 //import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import CoreServices from "../components/services/CoreServices";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumpIllus from "/images/breadcrumb_img_1.png";
+import breadcrumpIllus from "/images/all_services.png";
 function ServicesPage() {
   return (
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="All Services"
-        pageDesc="Welcome to AccuPay, your trusted partner for comprehensive financial
-            solutions. Explore our range of services tailored to meet your
-            business needs."
+        pageDesc="At Motorpedia, we offer a huge variety of services to ease your motor journey. From RTO Services, fancy numbers, ownership transfer to digitalising your store, you just name it, we've got it!"
         pageTitle="Our All Services"
       />
 

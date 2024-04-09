@@ -8,26 +8,26 @@ import img from "/images/manage_health_section_img.png";
 
 function ManageHealthSection() {
   return (
-    <section className="stp-30 sbp-30">
-      <div className="container grid grid-cols-12 gap-6 max-xxl:overflow-hidden">
+    <section className="stp-30 sbp-30 bg-[url(/images/counter_bg.jpeg)] text-white">
+      <div className="container grid grid-cols-12 gap-6 max-xxl:overflow-hidden ">
         <div className="col-span-12 md:col-span-6">
           <div className="flex justify-start items-start">
             <div className="  max-w-[600px] flex justify-start items-start flex-col">
               <FadeDown>
                 <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-                  Healthcare
+                  NOC Issuance
                 </p>
               </FadeDown>
               <FadeLeft>
                 <h1 className="display-4  pt-4 pb-6">
-                  Manage Your Home Health Business.
+                  Manage Your NOC Certifications
                 </h1>
               </FadeLeft>
               <FadeTop>
-                <p className="text-bodyText pb-8">
-                  Discover the freedom to oversee and optimize your home health
-                  care operations from anywhere with Motorpedia's
-                  mobile-friendly management solutions.
+                <p className="text-white pb-8">
+                  RTO services issue NOCs to authorize vehicle transfers,
+                  confirming compliance with legal requirements for seamless
+                  ownership transitions.
                 </p>
               </FadeTop>
               <ul className="grid grid-cols-2 gap-6">

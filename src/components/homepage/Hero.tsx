@@ -3,7 +3,7 @@ import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 import heroBgElement1 from "/images/hero_bg_element1.png";
 import heroBgElement2 from "/images/hero_bg_element2.png";
 import heroBgElement3 from "/images/hero_bg_element3.png";
-import heroIllus from "/images/car.png";
+import heroIllus from "/images/car2.png";
 
 function Hero() {
   const text = "Automotive";
@@ -58,8 +58,8 @@ function Hero() {
             </Link> */}
           </div>
         </div>
-        <div className="col-span-12 lg:col-span-6 lg:col-start-7 absolute ">
-          <img src={heroIllus} alt="" />
+        <div className="col-span-9 lg:col-span-6 lg:col-start-7 relative ">
+          <img src={heroIllus} className="pt-[80px]" alt="" />
         </div>
       </div>
     </section>

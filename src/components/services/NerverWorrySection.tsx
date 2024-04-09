@@ -6,7 +6,7 @@ import img from "/images/never_worry_img.png";
 
 function NerverWorrySection() {
   return (
-    <section className=" bg-softBg1 stp-30 sbp-30 max-xxl:overflow-hidden">
+    <section className="bg-[url(/images/counter_bg.jpeg)] stp-30 sbp-30 max-xxl:overflow-hidden text-white">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center items-center max-lg:order-2 max-lg:stp-15 overflow-hidden ">
           <FadeLeft>
@@ -20,13 +20,11 @@ function NerverWorrySection() {
 
         <div className="xxl:col-start-7 col-span-12 lg:col-span-6">
           <FadeRight>
-            <h1 className="display-4 ">
-              Never Worry About Your Accounting Again
-            </h1>
-            <p className="pt-6 text-bodyText pb-6 xl:pb-8">
-              Experience peace of mind with Motorpedia. Our comprehensive
-              accounting services ensure accuracy and compliance, so you can
-              focus on growing your business
+            <h1 className="display-4 ">Never Worry About Your RTO Again</h1>
+            <p className="pt-6 text-white pb-6 xl:pb-8">
+              Navigating the bureaucracy of vehicle registration can be a
+              daunting task. Let us take the stress out of the process with our
+              comprehensive registration services.
             </p>
             <div className="flex flex-col gap-6 xl:gap-10 justify-start items-start pb-6 xl:pb-12">
               {neverWorry.map(({ id, title, desc, icon }) => (
@@ -36,12 +34,15 @@ function NerverWorrySection() {
                   </div>
                   <div className="">
                     <h4 className="heading-4">{title}</h4>
-                    <p className=" text-bodyText pt-2">{desc}</p>
+                    <p className=" text-white pt-2">{desc}</p>
                   </div>
                 </div>
               ))}
             </div>
-            <Link to={"/contact"} className="bg-s2 rounded-full py-3 px-4">
+            <Link
+              to={"/contact"}
+              className="bg-s2 rounded-full py-3 px-4 text-black"
+            >
               {" "}
               Contact Us
             </Link>

@@ -8,7 +8,7 @@ import DentistSection from "../components/services/DentistSection";
 import WeHelpSection from "../components/services/WeHelpSection";
 import WhatWeDo from "../components/services/WhatWeDo";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumbImg from "/images/breadcrumb_img_2.png";
+import breadcrumbImg from "/images/laptopS1.png";
 
 function PayrollProcessing() {
   return (
