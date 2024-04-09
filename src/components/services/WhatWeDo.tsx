@@ -1,5 +1,5 @@
 import { whatWeDo } from "../../data/data";
-import SectionHeadingCenter from "../global/SectionHeadingCenter";
+//import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import img from "/images/lead21.png";
 
 function WhatWeDo() {

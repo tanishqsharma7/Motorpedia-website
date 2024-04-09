@@ -9,23 +9,23 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import {
-  PiBinocularsFill,
+  //PiBinocularsFill,
   PiBuildingsFill,
-  PiCalculatorFill,
+  //PiCalculatorFill,
   PiCalendarBlankFill,
   PiCarDuotone,
   PiCarProfileDuotone,
   PiChartLineFill,
-  PiChartLineUpFill,
-  PiChatCenteredFill,
-  PiChatCircleFill,
-  PiCheck,
+  // PiChartLineUpFill,
+  // PiChatCenteredFill,
+  // PiChatCircleFill,
+  // PiCheck,
   PiCheckCircleFill,
   PiCheckSquareDuotone,
   PiCoinFill,
   PiDesktopDuotone,
-  PiDesktopFill,
-  PiDeviceMobileFill,
+  // PiDesktopFill,
+  // PiDeviceMobileFill,
   PiEnvelopeFill,
   PiFileArchiveDuotone,
   PiFileFill,
@@ -40,9 +40,9 @@ import {
   PiLightbulbFilamentFill,
   PiMapPinFill,
   PiMoneyFill,
-  PiNotePencilBold,
-  PiNumberSquareThreeDuotone,
-  PiPaletteFill,
+  // PiNotePencilBold,
+  // PiNumberSquareThreeDuotone,
+  // PiPaletteFill,
   PiPhoneCallBold,
   PiPhoneCallDuotone,
   PiPhoneCallFill,
@@ -58,7 +58,7 @@ import {
   PiWalletFill,
   PiWebhooksLogoFill,
   PiWhatsappLogo,
-  PiWhatsappLogoBold,
+  //PiWhatsappLogoBold,
   PiWindowsLogoFill,
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
@@ -85,7 +85,7 @@ import blogImg3 from "/images/blogImg3.png";
 
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 import { GiKite } from "react-icons/gi";
-import { HiCurrencyDollar } from "react-icons/hi2";
+// import { HiCurrencyDollar } from "react-icons/hi2";
 import { SlPlane } from "react-icons/sl";
 
 import caseStudyImg1 from "/images/case_study_img1.png";
@@ -119,9 +119,9 @@ import blogPageImg6 from "/images/blog_img6.png";
 import recentPostImg1 from "/images/recent_post_img1.png";
 import recentPostImg3 from "/images/recent_post_img3.png";
 import recentPostImg4 from "/images/recent_post_img4.png";
-import { TbMapPinSearch } from "react-icons/tb";
+// import { TbMapPinSearch } from "react-icons/tb";
 import {
-  SiPicardsurgeles,
+  // SiPicardsurgeles,
   SiPivotaltracker,
   SiPrivateinternetaccess,
 } from "react-icons/si";

@@ -1,6 +1,6 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 import FaqSection from "../components/homepage/FaqSection";
-import StepByStepGuide from "../components/homepage/StepByStepGuide";
+//import StepByStepGuide from "../components/homepage/StepByStepGuide";
 import AccountSection from "../components/services/AccountSection";
 import AccountingServicesSection from "../components/services/AccountingServices";
 import ManageHealthSection from "../components/services/ManageHealthSection";
