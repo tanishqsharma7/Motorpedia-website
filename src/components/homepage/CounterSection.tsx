@@ -10,7 +10,7 @@ function CounterSection() {
               <NumberCounter start={1} end={200} />+
             </p>
             <div className="text-3xl"> Dealers Onboard </div>
-            <br></br>
+
             <p>Dealers on board with us on.</p>
           </div>
         </div>
@@ -20,7 +20,7 @@ function CounterSection() {
             <NumberCounter start={0} end={5000} /> +{" "}
           </p>
           <div className="text-3xl"> Vehicle Covered </div>
-          <br></br>
+
           <p>Cars processed and still counting.</p>
         </div>
         <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>

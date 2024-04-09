@@ -4,7 +4,7 @@ import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
-import solutionIllus from "/images/women1.jpeg";
+import solutionIllus from "/images/design2.png";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -19,11 +19,11 @@ function SolutionsSection() {
         className="absolute right-0 sm:right-2 lg:right-10 top-10 xl:top-32 max-md:h-[80px]"
       />
       <div className="container z-10 relative">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <SectionHeadingCenter
             sectionName="Solutions"
             sectionTitle="Why digital engagement matters."
-            sectionDesc="In today's fiercely competitive automotive market, the quest for customer attention has reached unprecedented levels. With countless alternatives merely a click away, the journey to purchasing a vehicle has grown more intricate. Ensuring consistent and captivating experiences at every interaction point has become paramount to capturing the interest of potential buyers. Moreover, as an increasing number of consumers are making buying decisions without physically inspecting a vehicle, Digital Engagement emerges as a pivotal factor for the success of car retailers. Leading players in the industry are reinventing their entire omnichannel retail approach."
+            sectionDesc="In today's fiercely competitive automotive market, the quest for customer attention has reached unprecedented levels. With countless alternatives merely a click away, the journey to purchasing a vehicle has grown more intricate."
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
@@ -63,6 +63,7 @@ function SolutionsSection() {
           </div>
         </div>
       </div>
+      <br></br>
     </section>
   );
 }

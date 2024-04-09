@@ -13,16 +13,23 @@ import {
   PiBuildingsFill,
   PiCalculatorFill,
   PiCalendarBlankFill,
+  PiCarDuotone,
+  PiCarProfileDuotone,
   PiChartLineFill,
   PiChartLineUpFill,
   PiChatCenteredFill,
   PiChatCircleFill,
+  PiCheck,
   PiCheckCircleFill,
+  PiCheckSquareDuotone,
   PiCoinFill,
+  PiDesktopDuotone,
   PiDesktopFill,
   PiDeviceMobileFill,
   PiEnvelopeFill,
+  PiFileArchiveDuotone,
   PiFileFill,
+  PiFileMagnifyingGlassDuotone,
   PiFilePlusFill,
   PiFileTextFill,
   PiGearFill,
@@ -34,7 +41,10 @@ import {
   PiMapPinFill,
   PiMoneyFill,
   PiNotePencilBold,
+  PiNumberSquareThreeDuotone,
+  PiPaletteFill,
   PiPhoneCallBold,
+  PiPhoneCallDuotone,
   PiPhoneCallFill,
   PiRocketLaunchFill,
   PiSealCheckFill,
@@ -47,6 +57,8 @@ import {
   PiUsersThreeFill,
   PiWalletFill,
   PiWebhooksLogoFill,
+  PiWhatsappLogo,
+  PiWhatsappLogoBold,
   PiWindowsLogoFill,
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
@@ -107,6 +119,12 @@ import blogPageImg6 from "/images/blog_img6.png";
 import recentPostImg1 from "/images/recent_post_img1.png";
 import recentPostImg3 from "/images/recent_post_img3.png";
 import recentPostImg4 from "/images/recent_post_img4.png";
+import { TbMapPinSearch } from "react-icons/tb";
+import {
+  SiPicardsurgeles,
+  SiPivotaltracker,
+  SiPrivateinternetaccess,
+} from "react-icons/si";
 
 export const headerMenu = [
   {
@@ -457,7 +475,7 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(FaUsers),
     name: "RTO Assistance Network",
-    desc: "Unorganized agent network catering to different RTO related needs…",
+    desc: "Unorganized agent network catering to different RTO related needs.",
   },
   {
     id: uuidv4(),
@@ -711,47 +729,50 @@ export const blogSection = [
 ];
 
 export const contactCard = [
+  // {
+  //   id: uuidv4(),
+  //   icon: React.createElement(PiBinocularsFill),
+  //   title: "Compare Motorpedia",
+  //   desc: "Explore how Motorpedia stands out. Check our comparison.",
+  //   linkText: "Compare Motorpedia",
+  // },
   {
     id: uuidv4(),
-    icon: React.createElement(PiBinocularsFill),
-    title: "Compare Motorpedia",
-    desc: "Explore how Motorpedia stands out. Check our comparison.",
-    linkText: "Compare Motorpedia",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiDesktopFill),
+    icon: React.createElement(PiDesktopDuotone),
     title: "Explore The Demo",
     desc: "Curious about our services? Request a demo to experience firsthand",
     linkText: "See Demo",
+    linkto: "/contact",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiHeadphonesFill),
+    icon: React.createElement(PiPhoneCallDuotone),
     title: "Give Us a Ring ",
-    desc: "Monday through Friday from 6AM - 6PM MST ",
+    desc: "Monday through Friday from 11AM - 7PM IST ",
     linkText: "Call Us",
+    linkto: "/contact",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiChatCenteredFill),
-    title: "Help Center",
-    desc: "Looking for answers? Visit our Help Center for detailed guides",
-    linkText: "Help Center",
+    icon: React.createElement(PiWhatsappLogo),
+    title: "Chat with us",
+    desc: "Looking for answers? Chat with us and clear all your doubts",
+    linkText: "Ping Us",
+    linkto: "https://wa.me/9999961887",
   },
 ];
 
 export const integrationsCard = [
   {
     id: uuidv4(),
-    icon: React.createElement(HiCurrencyDollar),
+    icon: React.createElement(PiMoneyFill),
     title: "Best Payment Integrations",
     description:
       "With our best in class payment integrations, we strive to deliver best work at minimal cost.",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiMoneyFill),
+    icon: React.createElement(SiPrivateinternetaccess),
     title: "Online Brand Recognition",
     description:
       "With online recognition of your brand, you'll take the step ahead of everyone.",
@@ -863,21 +884,21 @@ export const coreServices = [
     icon: React.createElement(PiUserFill),
     title: "DigitalizePro Services",
     link: "/services/payroll-processing",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    desc: "Unlock the power of digital transformation with DigitalizePro Services. Elevate your online presence and streamline operations for maximum efficiency",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
     title: "RTO Services",
     link: "/services/accounting-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    desc: "Unorganized agent network catering to different RTO related needs. From Vehicle Regsitration to ownership transfer, we've got it all.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiFileFill),
     title: "Sale Enablement",
     link: "/services/taxation-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    desc: "With our hassle free Sale Enablement Service you'll find ease in exploring Finance options, Insurance, Inventory Funding and many more.",
   },
   // {
   //   id: uuidv4(),
@@ -928,67 +949,73 @@ export const whatWeDo = [
 export const accountingServices = [
   {
     id: uuidv4(),
-    title: "Bookkeeping",
-    desc: "Maintain precise and up-to-date records with our professional bookkeeping services. ",
-    icon: React.createElement(PiCalculatorFill),
+    title: "Ownership Transfer",
+    desc: "Ownership Transfer of your pre-owned vehicle within 3 days of opening with our trustworthy contacts.",
+    icon: React.createElement(PiCarDuotone),
   },
   {
     id: uuidv4(),
-    title: "Financial Reporting",
-    desc: "Gain valuable insights into your business's performance with our detailed financial reporting.",
+    title: "Vehicle Regsitration",
+    desc: "From registring your vehicle or buying your new vehicle, Motorpedia provides hassle free path.",
     icon: React.createElement(PiFileTextFill),
   },
   {
     id: uuidv4(),
-    title: "Tax Planning",
-    desc: "Stay tax-compliant and maximize your savings with our expert tax planning services. ",
+    title: "Challan Clearance and Fancy Numbers",
+    desc: "Challan Clearance and Fancy Numbers for our customers at the earliest convience. ",
     icon: React.createElement(PiMoneyFill),
   },
   {
     id: uuidv4(),
-    title: "Financial Analysis",
-    desc: "Harness the power of data with our financial analysis services. We interpret financial trends, ",
-    icon: React.createElement(PiChartLineUpFill),
+    title: "NOC Issuance",
+    desc: "NOC Issuance for customers opting for it to engage them in stress free document approval.",
+    icon: React.createElement(PiFileArchiveDuotone),
   },
 ];
 
 export const neverWorry = [
   {
     id: uuidv4(),
-    title: "Great Communication",
+    title: "Hypothecation Addition",
     desc: "We resolve issues and offer advice quickly.",
-    icon: React.createElement(PiChatCircleFill),
+    icon: React.createElement(PiFilePlusFill),
   },
 
   {
     id: uuidv4(),
-    title: "Growth Potential",
-    desc: "We proactively offer growth and profitability advice",
-    icon: React.createElement(PiChartLineUpFill),
+    title: "HSPR Booking",
+    desc: "We proactiveily work in the domain of HSPR Booking",
+    icon: React.createElement(PiCheckSquareDuotone),
   },
   {
     id: uuidv4(),
-    title: "Stay in Compliance",
-    desc: "Your dedicated expert knows your business inside and out.",
-    icon: React.createElement(PiNotePencilBold),
+    title: "Vehicle Fitness and Tracking Device Fitment",
+    desc: "Your one stop place for fitness certificate and Tracking device fitment.",
+    icon: React.createElement(SiPivotaltracker),
+  },
+  {
+    id: uuidv4(),
+    title: "Prompt Renewal Services",
+    desc: "Efficient renewal solutions.",
+    icon: React.createElement(PiCarProfileDuotone),
   },
 ];
 
 export const accountantFeatures = [
   {
     id: uuidv4(),
-    title: "Communication issues.",
-    desc: "Plus, accountants often charge by the minute.",
+    title: "Receipt and Clearance Certificate",
+    desc: "Upon successful verification, customers receive a receipt of payment and a clearance certificate stating that all outstanding challans have been cleared.",
   },
   {
     id: uuidv4(),
-    title: "Shrinking business.",
-    desc: "There's no such thing as staying the same; you're either growing or you're shrinking.",
+    title: "Identification of Outstanding Challans",
+    desc: "The first step is to identify any outstanding challans (traffic violation tickets) associated with the vehicle or the driver.",
   },
   {
     id: uuidv4(),
-    title: "Compliance and customer service problems.",
-    desc: "National providers are known for mistakes and poor issue resolution.",
+    title: "Verification",
+    desc: " After payment is made, the RTO or motorworks service center verifies the clearance of the challans by checking with the respective authorities or online portals.",
   },
 ];
 
@@ -1118,23 +1145,23 @@ export const healthCareFeatures = [
 export const manageHealthItems = [
   {
     id: uuidv4(),
-    icon: React.createElement(PiDeviceMobileFill),
-    title: "Mobile Payroll Processing",
+    icon: React.createElement(PiFileMagnifyingGlassDuotone),
+    title: "Legal Clearance",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
-    title: "Real-Time Compliance",
+    title: "Compliance Verification",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiWalletFill),
-    title: "Billing and Invoicing",
+    title: "Documentation",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiChartLineFill),
-    title: "Performance Analytics",
+    title: "Vehicle History Check",
   },
 ];
 

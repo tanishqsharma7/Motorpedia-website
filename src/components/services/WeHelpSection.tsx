@@ -1,7 +1,7 @@
 import { PiCheckCircleFill } from "react-icons/pi";
 import FadeRight from "../animation/FadeRight";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/we_help.png";
+import img from "/images/Digital2.png";
 
 const offeringsItems = [
   "Immersive Virtual Showroom",

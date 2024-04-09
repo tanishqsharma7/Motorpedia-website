@@ -6,16 +6,16 @@ import img from "/images/account_section_img.png";
 
 function AccountSection() {
   return (
-    <section className=" bg-softBg1 stp-30 sbp-30">
+    <section className=" stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-6">
           <FadeLeft>
             <div className="  flex flex-col justify-start items-start">
-              <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-                Accountant
+              <p className=" py-3 px-5 rounded-full text-white ">
+                Challan Clearance
               </p>
               <h1 className="display-4 pt-4 pb-4 lg:pb-6">
-                Time for a Proactive Accountant
+                Time for a hassle free Challan Clearance
               </h1>
               <p className=" text-bodyText pb-6 lg:pb-8">
                 Feel neglected by your accountant? Experience the attentive and
