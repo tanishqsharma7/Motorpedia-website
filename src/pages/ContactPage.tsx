@@ -10,7 +10,7 @@ import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
 import breadcrumpIllus from "/images/breadcrumb_img_21.png";
-import locationImg from "/images/contact_page_img.png";
+// import locationImg from "/images/contact_page_img.png";
 
 function ContactPage() {
   const [firstName, setFirstName] = useState("");
@@ -122,10 +122,10 @@ function ContactPage() {
             </div>
             <div className="col-span-2 table-checkbox flex justify-between items-center max-[400px]:flex-col max-[400px]:items-start gap-5">
               <label className="flex justify-start items-center gap-2">
-                <input type="checkbox" className=" " />
-                <p>Subscribe to our newsletter.</p>
+                {/* <input type="checkbox" className=" " /> */}
+                {/* <p>Subscribe to our newsletter.</p> */}
               </label>
-              <button className="py-2 sm:py-3 px-4 sm:px-6 bg-p1 text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500">
+              <button className="py-2 sm:py-3 px-4 sm:px-6 bg-p1 text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500 w-full">
                 Submit
               </button>
             </div>
@@ -179,11 +179,16 @@ function ContactPage() {
         </div>
 
         <div className=" col-span-12 md:col-span-7 xl:col-start-6 overflow-hidden">
-          <img
+          {/* <img
             src={locationImg}
             alt=""
             className="hover:scale-110 duration-500 w-full h-full"
-          />
+          /> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.00381100687!2d77.08824227528312!3d28.47943187574876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d235576155dc1%3A0xea503c2c1313c609!2sMotorPedia%20%7C%20Automotive%20Solutions%20Provider!5e0!3m2!1sen!2sin!4v1712566651067!5m2!1sen!2sin"
+            width="900"
+            height="450"
+          ></iframe>
         </div>
       </section>
 

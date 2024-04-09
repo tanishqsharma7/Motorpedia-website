@@ -3,17 +3,17 @@ import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 import heroBgElement1 from "/images/hero_bg_element1.png";
 import heroBgElement2 from "/images/hero_bg_element2.png";
 import heroBgElement3 from "/images/hero_bg_element3.png";
-import heroIllus from "/images/hero_illus.png";
+import heroIllus from "/images/car.png";
 
 function Hero() {
-  const text = "Payroll";
+  const text = "Automotive";
   const animateWord = text.split("");
   return (
     <section className="bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden">
       <img
         src={heroBgElement1}
         alt=""
-        className=" absolute top-0 left-0 xxxl:left-36 max-lg:w-[300px] max-xxl:w-[500px] max-md:hidden"
+        className=" absolute top-0 left-0 xxxl:left-36 max-lg:w-[3000px] max-xxl:w-[5000px] max-md:hidden"
       />
       <img
         src={heroBgElement2}
@@ -28,11 +28,11 @@ function Hero() {
           className=" absolute top-1/3 left-1/3 max-sm:hidden"
         />
         <div className="col-span-12 lg:col-span-5 flex flex-col justify-center gap-2">
-          <p className="uppercase text-base lg:text-xl font-semibold">
-            Efficiency Payroll and workforce mastery{" "}
+          <p className=" text-base  lg:text-[25px] font-semibold">
+            Driving Success Together{" "}
           </p>
-          <div className="display-2 ">
-            We Make{" "}
+          <div className="display-2   ">
+            We Empower{" "}
             <div className="text-s3 inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
@@ -40,11 +40,11 @@ function Hero() {
                 </StaggerEffectTwo>
               ))}
             </div>
-            <br /> Painless.
+            <br /> Dealerships
           </div>
-          <p className="max-w-[550px]">
-            We get your employees paid while providing online access to
-            paystubs, tax reports & payroll tax filings.
+          <p className="max-w-[550px] text-[18px]">
+            We streamline your Dealership with Effortless Digitalization,
+            Seamless RTO Operations, Enhanced Leads, Maximized Conversions
           </p>
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link
@@ -58,7 +58,7 @@ function Hero() {
             </Link> */}
           </div>
         </div>
-        <div className="col-span-12 lg:col-span-6 lg:col-start-7">
+        <div className="col-span-12 lg:col-span-6 lg:col-start-7 absolute ">
           <img src={heroIllus} alt="" />
         </div>
       </div>

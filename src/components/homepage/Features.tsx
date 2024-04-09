@@ -5,7 +5,7 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 
 function Features() {
   return (
-    <section className="  bg-[#07205D]  stp-30 sbp-30">
+    <section className="  bg-[url(/images/counter_bg.jpeg)] stp-30 sbp-30">
       <div className="container">
         <div className="flex justify-between items-end gap-6 max-lg:flex-col max-lg:items-start">
           <div className="  max-w-[600px] flex justify-center items-start flex-col">
@@ -13,7 +13,7 @@ function Features() {
               Features
             </p>
             <h1 className="display-4  text-white pt-4 ">
-              Perfect solutions for your business
+              Perfect solutions for your Car
             </h1>
           </div>
           <p className="text-white max-w-[500px]">

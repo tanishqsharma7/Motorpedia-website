@@ -4,7 +4,7 @@ import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
-import solutionIllus from "/images/solution_illustrations.png";
+import solutionIllus from "/images/women1.jpeg";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -23,7 +23,7 @@ function SolutionsSection() {
           <SectionHeadingCenter
             sectionName="Solutions"
             sectionTitle="Why digital engagement matters."
-            sectionDesc="In today’s hyper-competitive retailing environment, the battle for shopper attention has never been greater. With myriad alternatives just a click away, the buyer journey has become increasingly complex. That means delivering consistent and engaging experiences at every touchpoint is now critical to keeping the attention of prospective buyers. And with more and more consumers making purchase decisions without ever seeing a vehicle in person, Digital Engagement has become a key driver of retailer success. Industry leaders are reimagining their entire omnichannel retail experience. What are you waiting for?"
+            sectionDesc="In today's fiercely competitive automotive market, the quest for customer attention has reached unprecedented levels. With countless alternatives merely a click away, the journey to purchasing a vehicle has grown more intricate. Ensuring consistent and captivating experiences at every interaction point has become paramount to capturing the interest of potential buyers. Moreover, as an increasing number of consumers are making buying decisions without physically inspecting a vehicle, Digital Engagement emerges as a pivotal factor for the success of car retailers. Leading players in the industry are reinventing their entire omnichannel retail approach."
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
@@ -32,17 +32,16 @@ function SolutionsSection() {
               <img
                 src={solutionIllus}
                 alt=""
-                className=" hover:scale-110 duration-500 w-full"
+                className=" hover:scale-110 rounded-2xl duration-500 w-full"
               />
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-start lg:items-center flex-col">
-            <h1 className="heading-1 pb-5 ">Consolidate Payroll Processing</h1>
-            <p className="text-bodyText">
-              We have designed a fast and effective payroll system that
-              streamlines your payment process.
+            <h1 className="heading-1 pb-5 ">Revamp Your Ride</h1>
+            <p className="text-bodyText text-xl">
+              Discover Our Premier Selection of Pre-Owned Vehicles
             </p>
-            <div className="grid grid-cols-2 gap-4 lg:gap-6 py-6 lg:py-10 w-full">
+            <div className="grid grid-cols-2  gap-4 lg:gap-6 py-6 lg:py-10 w-full">
               {solutionsFeatures.map(({ id, name, icon }, idx) => (
                 <div className=" group col-span-2 sm:col-span-1" key={id}>
                   <StaggerEffect id={idx}>

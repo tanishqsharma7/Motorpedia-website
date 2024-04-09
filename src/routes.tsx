@@ -5,12 +5,12 @@ import Loader from "./components/ui/Loader";
 import AboutPage from "./pages/AboutPage";
 import AccountingServices from "./pages/AccountingServices";
 import AppointmentPage from "./pages/AppointmentPage";
-import BlogDetailsPage from "./pages/BlogDetailsPage";
-import BlogPage from "./pages/BlogPage";
-import CartPage from "./pages/CartPage";
+// import BlogDetailsPage from "./pages/BlogDetailsPage";
+// import BlogPage from "./pages/BlogPage";
+// import CartPage from "./pages/CartPage";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import CaseStudyPage from "./pages/CaseStudyPage";
-import CheckoutPage from "./pages/CheckoutPage";
+// import CheckoutPage from "./pages/CheckoutPage";
 import ContactPage from "./pages/ContactPage";
 import DentistServices from "./pages/DentistServices";
 import ErrorPage from "./pages/Error";
@@ -20,13 +20,13 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import OurTeam from "./pages/OurTeam";
 import PayrollProcessing from "./pages/PayrollProcessing";
-import PricingPage from "./pages/PricingPage";
+// import PricingPage from "./pages/PricingPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RealStateServices from "./pages/RealStateServices";
 import RegisterPage from "./pages/RegisterPage";
 import ServicesPage from "./pages/ServicesPage";
-import ShopDetailsPage from "./pages/ShopDetailsPage";
-import ShopPage from "./pages/ShopPage";
+// import ShopDetailsPage from "./pages/ShopDetailsPage";
+// import ShopPage from "./pages/ShopPage";
 import TaxationServices from "./pages/TaxationServices";
 import TeamDetailsPage from "./pages/TeamDetailsPage";
 import TermsConditions from "./pages/TermsConditions";
@@ -100,46 +100,46 @@ export const router = createBrowserRouter([
         path: "/team/team-details",
         element: <TeamDetailsPage />,
       },
-      {
-        path: "/shop",
-        element: <ShopPage />,
-      },
-      {
-        path: "/shop/:name",
-        element: <ShopDetailsPage />,
-      },
-      {
-        path: "/shop/shop-details",
-        element: <ShopDetailsPage />,
-      },
-      {
-        path: "/cart",
-        element: <CartPage />,
-      },
-      {
-        path: "/checkout",
-        element: <CheckoutPage />,
-      },
-      {
-        path: "/blog",
-        element: <BlogPage />,
-      },
-      {
-        path: "/blog/:name",
-        element: <BlogDetailsPage />,
-      },
-      {
-        path: "/blog-details",
-        element: <BlogDetailsPage />,
-      },
+      // {
+      //   path: "/shop",
+      //   element: <ShopPage />,
+      // },
+      // {
+      //   path: "/shop/:name",
+      //   element: <ShopDetailsPage />,
+      // },
+      // {
+      //   path: "/shop/shop-details",
+      //   element: <ShopDetailsPage />,
+      // },
+      // {
+      //   path: "/cart",
+      //   element: <CartPage />,
+      // },
+      // {
+      //   path: "/checkout",
+      //   element: <CheckoutPage />,
+      // },
+      // {
+      //   path: "/blog",
+      //   element: <BlogPage />,
+      // },
+      // {
+      //   path: "/blog/:name",
+      //   element: <BlogDetailsPage />,
+      // },
+      // {
+      //   path: "/blog-details",
+      //   element: <BlogDetailsPage />,
+      // },
       {
         path: "/faq",
         element: <FAQPage />,
       },
-      {
-        path: "/pricing",
-        element: <PricingPage />,
-      },
+      // {
+      //   path: "/pricing",
+      //   element: <PricingPage />,
+      // },
       {
         path: "/contact",
         element: <ContactPage />,

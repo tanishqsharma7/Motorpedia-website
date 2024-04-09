@@ -1,4 +1,4 @@
-import BlogSection from "../components/homepage/BlogSection";
+//import BlogSection from "../components/homepage/BlogSection";
 import CTASectiont from "../components/homepage/CTASectiont";
 import CompanySlider from "../components/homepage/CompanySlider";
 import ContactSection from "../components/homepage/ContactSection";
@@ -7,7 +7,7 @@ import CounterSection from "../components/homepage/CounterSection";
 import Features from "../components/homepage/Features";
 import Hero from "../components/homepage/Hero";
 import Integrations from "../components/homepage/Integrations";
-import PricingSection from "../components/homepage/PricingSection";
+//import PricingSection from "../components/homepage/PricingSection";
 import SolutionsSection from "../components/homepage/SolutionsSection";
 import StepByStepGuide from "../components/homepage/StepByStepGuide";
 import Testimonial from "../components/homepage/Testimonial";
@@ -26,8 +26,8 @@ function HomePage() {
       <ContactUsSection />
       <Testimonial />
       <CounterSection />
-      <PricingSection />
-      <BlogSection />
+      {/* <PricingSection /> */}
+      {/* <BlogSection /> */}
       <ContactSection />
       <CTASectiont />
     </main>

@@ -10,9 +10,8 @@ function CoreServices() {
           <div className="flex justify-center items-center max-w-[600px]  flex-col">
             <h1 className="display-4">Our Core Services</h1>
             <p className="text-bodyText text-center pt-6">
-              hile we go so much further and do so much more for clients, these
-              core services help provide a framework to provide you with
-              relevant, reliable & real-time reporting.
+              Though our roots expand to nearly all your need in motor journey,
+              yet we have narrouwede it own into three core services.
             </p>
           </div>
         </div>
