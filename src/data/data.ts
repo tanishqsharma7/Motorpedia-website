@@ -140,12 +140,12 @@ export const headerMenu = [
     isSubmenu: false,
   },
 
-  {
-    id: uuidv4(),
-    name: "Contact Us",
-    link: "/contact",
-    isSubmenu: false,
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "Contact Us",
+  //   link: "/contact",
+  //   isSubmenu: false,
+  // },
   {
     id: uuidv4(),
     name: "Services",
@@ -280,16 +280,16 @@ export const headerMenu = [
         name: "FAQ Page",
         link: "/faq",
       },
-      {
-        id: uuidv4(),
-        name: "Login",
-        link: "/login",
-      },
-      {
-        id: uuidv4(),
-        name: "Register",
-        link: "/register",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Login",
+      //   link: "/login",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Register",
+      //   link: "/register",
+      // },
       {
         id: uuidv4(),
         name: "Privacy Policy",

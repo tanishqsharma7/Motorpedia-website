@@ -1,8 +1,10 @@
 import FadeDown from "../animation/FadeDown";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
-import LinkButton from "../ui/LinkButton";
+//import LinkButton from "../ui/LinkButton";
 import contactIllus from "/images/contact_illus.png";
+import download_google from "/images/googleplay.png";
+//import download_apple from "/images/applestr.png";
 
 function ContactUsSection() {
   return (
@@ -21,7 +23,10 @@ function ContactUsSection() {
               swipe right to apply.
             </p>
           </FadeTop>
-          <LinkButton link="/contact" text="Contact Us" />
+          <div className="w-[200px] h-[150px]">
+            <img src={download_google} alt="download" />
+            {/* <img src={download_apple} alt="download" /> */}
+          </div>
         </div>
         <div className="w-full lg:max-xxl:w-1/2 self-stretch flex justify-center max-xxl:items-center lg:pt-10">
           <img src={contactIllus} alt="" className=" object-cover" />
