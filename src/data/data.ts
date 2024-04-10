@@ -63,10 +63,10 @@ import {
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
 
-import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
-import whyMotorpediaCard2 from "/images/whyAccoupayCard_2.png";
-import whyMotorpediaCard3 from "/images/whyAccoupayCard_3.png";
-import whyMotorpediaCard4 from "/images/whyAccoupayCard_4.png";
+//import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
+import whyMotorpediaCard2 from "/images/noc.jpg";
+import whyMotorpediaCard3 from "/images/cars12.jpg";
+import whyMotorpediaCard4 from "/images/img2.jpg";
 // import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
 // import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
 
@@ -142,7 +142,7 @@ export const headerMenu = [
 
   {
     id: uuidv4(),
-    name: "Contact",
+    name: "Contact Us",
     link: "/contact",
     isSubmenu: false,
   },
@@ -237,7 +237,7 @@ export const headerMenu = [
 
   {
     id: uuidv4(),
-    name: "Pages",
+    name: "More",
     isSubmenu: true,
     submenu: [
       // {
@@ -450,22 +450,23 @@ export const teamContactDetails = [
 export const solutionsFeatures = [
   {
     id: uuidv4(),
-    name: "Ownership Transfer",
+    name: "RTO Services",
     icon: React.createElement(AiFillFileText),
   },
   {
     id: uuidv4(),
-    name: "Insurance Transfer",
-    icon: React.createElement(PiHandCoinsFill),
-  },
-  {
-    id: uuidv4(),
-    name: "NOC Issuance",
+    name: "Digitalization",
     icon: React.createElement(PiLightbulbFilamentFill),
   },
   {
     id: uuidv4(),
-    name: "Challan Issuance",
+    name: "Procurement Solution",
+    icon: React.createElement(PiHandCoinsFill),
+  },
+
+  {
+    id: uuidv4(),
+    name: "Sale Enablement",
     icon: React.createElement(PiRocketLaunchFill),
   },
 ];
@@ -521,27 +522,27 @@ export const stepByStepCard = [
 export const whyMotorpediaCard = [
   {
     id: uuidv4(),
-    img: whyMotorpediaCard1,
+    img: "/images/img1.jpeg",
     title: "Basic Ownership Transfer",
-    des: "Hire or relocate team member with in house visa support",
+    des: "Ownership Transfer of your pre-owned vehicle within 3 days of opening with our trustworthy contacts.",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard2,
     title: "Interstate NOC Issuance",
-    des: "Hire or relocate team member with in house visa support",
+    des: "NOC Issuance for customers opting for it to engage them in stress free document approval.",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard3,
     title: "Vehicle Permit Changes",
-    des: "Hire or relocate team member with in house visa support",
+    des: "Permits for customers opting for it to engage them in stress free document approval.",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard4,
     title: "Hypothecation Addition",
-    des: "Hire or relocate team member with in house visa support",
+    des: "Navigate the financial landscape of automotive journey with our expert advisory services.",
   },
   // {
   //   id: uuidv4(),
@@ -1132,7 +1133,7 @@ export const healthCareFeatures = [
     id: uuidv4(),
     icon: React.createElement(PiHeartbeatFill),
     title: "Financial Advisory for Healthcare Practices",
-    desc: "Navigate the financial landscape of healthcare with our expert advisory services. From budgeting to strategic planning,",
+    desc: "Navigate the financial landscape of automotive journey with our expert advisory services. From budgeting to strategic planning.",
   },
   {
     id: uuidv4(),

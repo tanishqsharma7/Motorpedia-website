@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GoChevronDown } from "react-icons/go";
-import { PiPhoneCallBold } from "react-icons/pi";
+import { PiPhoneCallBold, PiPhoneCallDuotone } from "react-icons/pi";
 import { RiMenuFoldFill } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
 import { headerMenu } from "../../data/data";
@@ -42,7 +42,7 @@ function Header() {
   return (
     <header>
       <div
-        className={` top-0 left-0 right-0 z-50 ${
+        className={`top-0 left-0 right-0 z-50 ${
           scrolled
             ? "animationOne fixed bg-white shadow-md"
             : "animationTwo absolute"
@@ -56,14 +56,18 @@ function Header() {
             >
               <RiMenuFoldFill />
             </button>
-            <div className="p-0">
+            <div className="p-0 ">
               <Link to={"/"}>
-                <img src={logo} className="w-48" alt="motorpedia logo" />
+                <img
+                  src={logo}
+                  className="w-48 -translate-x-[70px]"
+                  alt="motorpedia logo"
+                />
               </Link>
             </div>
           </div>
-          <nav className="max-lg:hidden">
-            <ul className="flex justify-center items-center gap-3">
+          <nav className="max-lg:hidden ">
+            <ul className="flex justify-center items-center gap-5">
               {headerMenu.map((menu) => (
                 <li key={menu.id} className="">
                   {menu.isSubmenu ? (
@@ -118,16 +122,18 @@ function Header() {
             </ul>
           </nav>
 
-          <div className="flex justify-end items-center gap-2 sm:gap-6 xl:gap-10 font-medium max-sm:hidden">
-            <div className="flex justify-between items-center gap-1 ">
+          <div className="flex justify-end items-center gap-2 sm:gap-6 xl:gap-10 font-medium max-sm:hidden relative right-50 left-50">
+            <div className="flex justify-between items-center gap-1  translate-x-[90px]">
               <span className="bg-s1 rounded-full text-s2 p-2 md:p-3 text-lg lg:text-2xl">
-                <PiPhoneCallBold />
+                <PiPhoneCallDuotone />
               </span>
               <Link to={"tel:+91 99999-61887"} className="max-xl:hidden">
                 +91 99999-61887
               </Link>
             </div>
-            <LinkButton link="/contact" text="Get Started" />
+            <div className="translate-x-[70px]">
+              <LinkButton link="/contact" text="Get Started" />
+            </div>
           </div>
         </div>
       </div>

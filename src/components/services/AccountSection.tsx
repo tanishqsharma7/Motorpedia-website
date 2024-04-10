@@ -2,7 +2,7 @@ import { PiCheckCircleFill } from "react-icons/pi";
 import { accountantFeatures } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/account_section_img.png";
+import img from "/images/challan.jpg";
 
 function AccountSection() {
   return (

@@ -27,9 +27,13 @@ function WhyAccoupay() {
               className="col-span-12 sm:col-span-6 shadow-2xl lg:col-span-3  "
             >
               <StaggerEffect id={idx}>
-                <div className="bg-white flex  hover:bg-white/60 flex-col items-center hover:shadow-2xl rounded-2xl border-white group   duration-700 hover:bg-gray-100">
+                <div className="bg-white flex  flex-col items-center hover:shadow-2xl rounded-2xl border-white group   duration-700">
                   <div className="">
-                    <img className="h-[300px] w-[450px] " src={img} alt="" />
+                    <img
+                      className="h-[300px] w-[450px] rounded-2xl"
+                      src={img}
+                      alt=""
+                    />
                   </div>
                   <h4 className="pt-2 text-black   heading-4">{title}</h4>
                   <p className="p-4">{des}</p>

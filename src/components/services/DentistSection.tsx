@@ -1,6 +1,6 @@
 import { dentistSectionFeatures } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/dentist_section_img.png";
+import img from "/images/img3.webp";
 
 function DentistSection() {
   return (

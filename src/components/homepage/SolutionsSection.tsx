@@ -22,7 +22,7 @@ function SolutionsSection() {
         <div className="flex justify-center items-center ">
           <SectionHeadingCenter
             sectionName="Solutions"
-            sectionTitle="Why digital engagement matters."
+            sectionTitle="Why digitalization matters."
             sectionDesc="In today's fiercely competitive automotive market, the quest for customer attention has reached unprecedented levels. With countless alternatives merely a click away, the journey to purchasing a vehicle has grown more intricate."
           />
         </div>
@@ -37,7 +37,7 @@ function SolutionsSection() {
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-start lg:items-center flex-col">
-            <h1 className="heading-1 pb-5 ">Revamp Your Ride</h1>
+            <h1 className="heading-1 pb-5 ">Upgrade your Driving Experience</h1>
             <p className="text-bodyText text-xl">
               Discover Our Premier Selection of Pre-Owned Vehicles
             </p>

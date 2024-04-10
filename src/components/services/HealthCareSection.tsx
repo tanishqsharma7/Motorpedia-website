@@ -1,7 +1,7 @@
 import { healthCareFeatures } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
 import SectionHeadingCenter from "../global/SectionHeadingCenter";
-import img from "/images/healthcare_section_img.png";
+import img from "/images/RSA.png";
 
 function HealthCareSection() {
   return (
@@ -9,7 +9,7 @@ function HealthCareSection() {
       <div className="container">
         <SectionHeadingCenter
           sectionName="Healthcare"
-          sectionTitle="Healthcare payroll without the headaches."
+          sectionTitle="Extended Coverage:- Warranty and Roadside Assistance"
           sectionDesc="We get it—managing payroll for healthcare is complex. That’s why we’ve designed our platform to streamline your workflow from start to finish."
         />
         <div className="grid grid-cols-12 gap-6 stp-15">
@@ -17,7 +17,7 @@ function HealthCareSection() {
             <img
               src={img}
               alt=""
-              className="hover:scale-110 duration-500 w-full h-full"
+              className="hover:scale-110 duration-500 w-full rounded-2xl h-[350px]"
             />
           </div>
           <div className="col-span-12 lg:col-span-6 xxl:col-start-7 flex flex-col gap-6 xl:gap-10 justify-center items-center ">
