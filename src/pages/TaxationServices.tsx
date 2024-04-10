@@ -1,26 +1,30 @@
 import CTASectiont from "../components/homepage/CTASectiont";
-import StepByStepGuide from "../components/homepage/StepByStepGuide";
-import Testimonial from "../components/homepage/Testimonial";
+
+import HealthCareSection from "../components/services/HealthCareSection";
+import ManageHealthSection from "../components/services/ManageHealthSection";
+import SearvicesFeaturesSection from "../components/services/SearvicesFeaturesSection";
 import TaxationSection from "../components/services/TaxationSection";
 import TaxationVideoSection from "../components/services/TaxationVideoSection";
 import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumbImg from "/images/breadcrumb_img_4.png";
+import breadcrumbImg from "/images/sale3.webp";
 function TaxationServices() {
   return (
     <main>
       <BreadcrumbSection
         img={breadcrumbImg}
         middlePage="Services"
-        pageName="Taxations Services"
-        pageDesc="AccuPay takes the complexity out of taxes, offering a range of services to ensure your business stays compliant and maximizes."
-        pageTitle="Taxations Services"
+        pageName="Sale Enablement Services"
+        pageDesc="At MotorPedia, we offer personalized consultations, transparent pricing, and educational resources to empower you. With a convenient booking process and quality assurance, trust us to keep your car running smoothly. Experience the difference today"
+        pageTitle="Sale Enablement Services"
       />
       <TaxationSection />
       <WhatWeDoTaxation />
-      <StepByStepGuide />
+      <HealthCareSection />
       <TaxationVideoSection />
-      <Testimonial />
+      <ManageHealthSection />
+      <SearvicesFeaturesSection />
+
       <CTASectiont />
     </main>
   );

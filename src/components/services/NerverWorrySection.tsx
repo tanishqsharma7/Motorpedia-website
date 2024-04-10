@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { neverWorry } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/never_worry_img.png";
+import img from "/images/image2.jpg";
 
 function NerverWorrySection() {
   return (
@@ -13,7 +13,7 @@ function NerverWorrySection() {
             <img
               src={img}
               alt=""
-              className="hover:scale-110 duration-500 w-full h-full"
+              className="hover:scale-110 duration-500 w-screen h-full"
             />
           </FadeLeft>
         </div>

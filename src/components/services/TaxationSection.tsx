@@ -1,7 +1,7 @@
 import { taxationFeatures } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/taxation_services_img.png";
+import img from "/images/sale21.png";
 
 function TaxationSection() {
   return (
@@ -11,14 +11,16 @@ function TaxationSection() {
           <FadeLeft>
             <div className=" flex justify-start items-start flex-col">
               <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-                Taxation
+                Finance
               </p>
               <h2 className="display-4 pt-4 pb-6">
-                Motorpedia's Taxation Expertise
+                Motorpedia's Finance Expertise
               </h2>
               <p className=" text-bodyText pb-10">
-                Feel neglected by your accountant? Experience the attentive and
-                personalized service you deserve with Motorpedia.
+                Explore our finance section for flexible payment options
+                tailored to your needs. We offer competitive rates and
+                assistance in securing financing for your next used car
+                purchase.
               </p>
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img
