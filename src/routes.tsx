@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./RootLayout";
 import Loader from "./components/ui/Loader";
 import AboutPage from "./pages/AboutPage";
-import AccountingServices from "./pages/AccountingServices";
+import AccountingServices from "./pages/RTO";
 import AppointmentPage from "./pages/AppointmentPage";
 // import BlogDetailsPage from "./pages/BlogDetailsPage";
 // import BlogPage from "./pages/BlogPage";
@@ -19,7 +19,7 @@ import HealthCareServices from "./pages/HealthCareServices";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import OurTeam from "./pages/OurTeam";
-import PayrollProcessing from "./pages/PayrollProcessing";
+import PayrollProcessing from "./pages/DigitalizePro";
 // import PricingPage from "./pages/PricingPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RealStateServices from "./pages/RealStateServices";
@@ -27,7 +27,7 @@ import RegisterPage from "./pages/RegisterPage";
 import ServicesPage from "./pages/ServicesPage";
 // import ShopDetailsPage from "./pages/ShopDetailsPage";
 // import ShopPage from "./pages/ShopPage";
-import TaxationServices from "./pages/TaxationServices";
+import TaxationServices from "./pages/saleEnablement";
 import TeamDetailsPage from "./pages/TeamDetailsPage";
 import TermsConditions from "./pages/TermsConditions";
 
@@ -53,15 +53,15 @@ export const router = createBrowserRouter([
         element: <ServicesPage />,
       },
       {
-        path: "/services/payroll-processing",
+        path: "/services/DigitalizePro",
         element: <PayrollProcessing />,
       },
       {
-        path: "/services/accounting-services",
+        path: "/services/RTO",
         element: <AccountingServices />,
       },
       {
-        path: "/services/taxation-services",
+        path: "/services/saleEnablement",
         element: <TaxationServices />,
       },
       {

@@ -8,7 +8,7 @@ function TermsConditions() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="Terms & Conditions"
-        pageDesc="By using our Accounting & Payroll Processing Services, you agree to comply with the outlined terms and conditions. "
+        pageDesc="By using our Services, you agree to comply with the outlined terms and conditions. "
         pageTitle="Terms & Conditions"
       />
 
@@ -19,42 +19,45 @@ function TermsConditions() {
           </p>
           <h2 className="display-4 py-6">Terms & Conditions</h2>
           <p className=" text-bodyText">
-            Creating a robust and clear Terms & Conditions page for your
-            Accounting & Payroll Processing Services is essential for setting
-            expectations and outlining the contractual framework. Below are key
-            elements you may want to include
+            Creating a robust and clear Terms & Conditions page for your Motor
+            Expedition is essential for setting expectations and outlining the
+            contractual framework. Below are key elements you may want to
+            include
           </p>
         </div>
 
         <div className="">
           <h3 className="heading-1 py-6">Introduction</h3>
           <p className=" text-bodyText">
-            Welcome to [accupay], where we are dedicated to providing
-            exceptional Accounting & Payroll Processing Services. These Terms &
-            Conditions outline the mutual agreement between [accupay] and our
-            valued clients. By accessing and using our services, you acknowledge
-            and agree to comply with the terms set forth herein.
+            We may update Our Privacy Policy from time to time. We will notify
+            You of any changes by posting the new Privacy Policy on this page.
+            We will let You know via email and/or a prominent notice on Our
+            Service, prior to the change becoming effective and update the "Last
+            updated" date at the top of this Privacy Policy. You are advised to
+            review this Privacy Policy periodically for any changes. Changes to
+            this Privacy Policy are effective when they are posted on this page
           </p>
           <p className=" text-bodyText pt-6">
-            By accessing and using our services, you acknowledge and agree to
-            comply with the terms set forth herein. These terms govern the
-            relationship between you and [Your Company] and outline the rights,
-            responsibilities, and obligations of both parties. We encourage you
-            to read these Terms & Conditions carefully before engaging with our
-            services. If you have any questions or concerns, please contact us
-            for clarification. Your use of our services indicates your
-            acceptance of these terms. Thank you for choosing [Your Company].
+            We may update Our Privacy Policy from time to time. We will notify
+            You of any changes by posting the new Privacy Policy on this page.
+            We will let You know via email and/or a prominent notice on Our
+            Service, prior to the change becoming effective and update the "Last
+            updated" date at the top of this Privacy Policy. You are advised to
+            review this Privacy Policy periodically for any changes. Changes to
+            this Privacy Policy are effective when they are posted on this page
           </p>
         </div>
 
         <div className="">
           <h3 className="heading-2 py-6">Service Description</h3>
           <p className=" text-bodyText">
-            [Accupay] is pleased to offer comprehensive Accounting & Payroll
-            Processing Services tailored to meet the financial needs of
-            businesses. Our services encompass a range of professional
-            accounting and payroll solutions designed to streamline and optimize
-            your financial processes.
+            We may update Our Privacy Policy from time to time. We will notify
+            You of any changes by posting the new Privacy Policy on this page.
+            We will let You know via email and/or a prominent notice on Our
+            Service, prior to the change becoming effective and update the "Last
+            updated" date at the top of this Privacy Policy. You are advised to
+            review this Privacy Policy periodically for any changes. Changes to
+            this Privacy Policy are effective when they are posted on this page
           </p>
 
           <ul className="pt-6 flex flex-col gap-4">
@@ -100,16 +103,13 @@ function TermsConditions() {
         <div className="">
           <h3 className="heading-3 py-6">Client Responsibilities</h3>
           <p className=" text-bodyText">
-            As a valued client of [accupay], your cooperation is essential for
-            the success of our Accounting & Payroll Processing Services. Please
-            ensure the timely and accurate provision of all necessary financial
-            information. Collaborate with us in addressing queries promptly to
-            facilitate efficient service delivery. Adherence to agreed-upon
-            timelines and communication of any significant changes or updates is
-            crucial. Your commitment to providing accurate data and promptly
-            responding to our requests enables us to deliver the high-quality
-            services you deserve. Thank you for entrusting [Your Company] with
-            your financial needs."
+            We may update Our Privacy Policy from time to time. We will notify
+            You of any changes by posting the new Privacy Policy on this page.
+            We will let You know via email and/or a prominent notice on Our
+            Service, prior to the change becoming effective and update the "Last
+            updated" date at the top of this Privacy Policy. You are advised to
+            review this Privacy Policy periodically for any changes. Changes to
+            this Privacy Policy are effective when they are posted on this page
           </p>
         </div>
 

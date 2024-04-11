@@ -8,7 +8,7 @@ import TaxationVideoSection from "../components/services/TaxationVideoSection";
 import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumbImg from "/images/sale3.webp";
-function TaxationServices() {
+function saleEnablement() {
   return (
     <main>
       <BreadcrumbSection
@@ -30,4 +30,4 @@ function TaxationServices() {
   );
 }
 
-export default TaxationServices;
+export default saleEnablement;

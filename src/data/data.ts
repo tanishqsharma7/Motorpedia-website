@@ -159,17 +159,17 @@ export const headerMenu = [
       {
         id: uuidv4(),
         name: "DigitalizePro Services",
-        link: "/services/payroll-processing",
+        link: "/services/DigitalizePro",
       },
       {
         id: uuidv4(),
         name: "RTO Services",
-        link: "/services/accounting-services",
+        link: "/services/RTO",
       },
       {
         id: uuidv4(),
         name: "Sale Enablement Services",
-        link: "/services/taxation-services",
+        link: "/services/saleEnablement",
       },
       // {
       //   id: uuidv4(),
@@ -376,17 +376,17 @@ export const footerLinks = [
       {
         id: uuidv4(),
         name: "DigitalizePro Services",
-        link: "/services/payroll-processing",
+        link: "/services/DigitalizePro",
       },
       {
         id: uuidv4(),
         name: "RTO Services",
-        link: "/services/accounting-services",
+        link: "/services/RTO",
       },
       {
         id: uuidv4(),
         name: "Sale Enablement Services",
-        link: "/services/taxation-services",
+        link: "/services/saleEnablement",
       },
       // {
       //   id: uuidv4(),
@@ -884,21 +884,21 @@ export const coreServices = [
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
     title: "DigitalizePro Services",
-    link: "/services/payroll-processing",
+    link: "/services/DigitalizePro",
     desc: "Unlock the power of digital transformation with DigitalizePro Services. Elevate your online presence and streamline operations for maximum efficiency",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
     title: "RTO Services",
-    link: "/services/accounting-services",
+    link: "/services/RTO",
     desc: "Unorganized agent network catering to different RTO related needs. From Vehicle Regsitration to ownership transfer, we've got it all.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiFileFill),
     title: "Sale Enablement",
-    link: "/services/taxation-services",
+    link: "/services/saleEnablement",
     desc: "With our hassle free Sale Enablement Service you'll find ease in exploring Finance options, Insurance, Inventory Funding and many more.",
   },
   // {
@@ -1303,7 +1303,7 @@ export const caseStudySidebar = [
     id: uuidv4(),
     icon: React.createElement(PiWindowsLogoFill),
     name: "Category",
-    desc: "Payroll Processing",
+    desc: "DigitalizePro",
   },
   {
     id: uuidv4(),
@@ -1444,7 +1444,7 @@ export const blogCategories = [
   },
   {
     id: uuidv4(),
-    name: "Payroll Processing",
+    name: "DigitalizePro",
     count: "2",
   },
   {
@@ -1516,7 +1516,7 @@ export const blogTags = [
   },
   {
     id: uuidv4(),
-    name: "Accounting",
+    name: "RTO",
   },
   {
     id: uuidv4(),
