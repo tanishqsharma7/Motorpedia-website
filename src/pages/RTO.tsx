@@ -8,7 +8,7 @@ import NerverWorrySection from "../components/services/NerverWorrySection";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumbImg from "/images/RTO-Services.png";
 
-function AccountingServices() {
+function RTO() {
   return (
     <main>
       <BreadcrumbSection
@@ -30,4 +30,4 @@ function AccountingServices() {
   );
 }
 
-export default AccountingServices;
+export default RTO;

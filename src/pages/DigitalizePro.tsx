@@ -10,7 +10,7 @@ import WhatWeDo from "../components/services/WhatWeDo";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumbImg from "/images/laptopS1.png";
 
-function PayrollProcessing() {
+function DigitalizePro() {
   return (
     <main>
       <BreadcrumbSection
@@ -33,4 +33,4 @@ function PayrollProcessing() {
   );
 }
 
-export default PayrollProcessing;
+export default DigitalizePro;

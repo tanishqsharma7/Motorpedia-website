@@ -1,7 +1,7 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 import FaqSection from "../components/homepage/FaqSection";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumpIllus from "/images/breadcrumb_img_19.png";
+import breadcrumpIllus from "/images/faq_man.png";
 function FAQPage() {
   return (
     <main>

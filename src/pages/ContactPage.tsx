@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
-import breadcrumpIllus from "/images/breadcrumb_img_21.png";
+import breadcrumpIllus from "/images/contact.png";
 // import locationImg from "/images/contact_page_img.png";
 
 function ContactPage() {
