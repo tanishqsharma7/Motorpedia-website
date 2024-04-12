@@ -4,7 +4,6 @@ import OurValues from "../components/aboutpage/OurValues";
 import StorySection from "../components/aboutpage/StorySection";
 import CTASectiont from "../components/homepage/CTASectiont";
 import ContactSection from "../components/homepage/ContactSection";
-import CounterSection from "../components/homepage/CounterSection";
 
 function AboutPage() {
   return (
@@ -13,7 +12,7 @@ function AboutPage() {
       <StorySection />
       <OurValues />
       {/* <AwardsSection /> */}
-      <CounterSection />
+      {/* <CounterSection /> */}
       {/* <WhyAccoupay /> */}
       {/* <Testimonial />
       <PricingSection /> */}

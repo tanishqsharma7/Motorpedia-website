@@ -823,25 +823,25 @@ export const ourValues = [
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
-    title: "Integrity",
+    title: "Customer Empathy",
     desc: "We are transparent and do the right thing for the right reason",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiCheckCircleFill),
-    title: "Accountability",
+    title: "Biased for Action",
     desc: "We take ownership of outcomes and deliver on our commitments",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Diversity",
+    title: "Commitment to Excellence",
     desc: "We seek and leverage differences and unique perspectives",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Customer Centricity",
+    title: "Trustworthy",
     desc: "We start with the customer in everything we do",
   },
 ];

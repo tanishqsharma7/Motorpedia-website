@@ -1,5 +1,4 @@
 import CTASectiont from "../components/homepage/CTASectiont";
-
 import HealthCareSection from "../components/services/HealthCareSection";
 import ManageHealthSection from "../components/services/ManageHealthSection";
 import SearvicesFeaturesSection from "../components/services/SearvicesFeaturesSection";

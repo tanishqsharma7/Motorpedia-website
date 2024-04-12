@@ -5,7 +5,7 @@ import "swiper/css";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import logo1 from "/images/cars24.png";
-import logo2 from "/images/spinny_logo.jpg";
+import logo2 from "/images/spinny1.png";
 import logo3 from "/images/mfc_logo.png";
 import logo4 from "/images/bbt_logo.png";
 import logo5 from "/images/bikespe_logo.jpg";

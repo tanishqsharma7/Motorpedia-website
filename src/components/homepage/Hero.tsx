@@ -31,8 +31,8 @@ function Hero() {
           <p className=" text-base  lg:text-[25px] font-semibold">
             Driving Success Together{" "}
           </p>
-          <div className="display-2   ">
-            We Empower{" "}
+          <div className="display-2 lg:text-nowrap">
+            We Empower<br></br>
             <div className="text-s3 inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>

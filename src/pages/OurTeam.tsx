@@ -12,7 +12,7 @@ function OurTeam() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="Our Team"
-        pageDesc="Meet our dedicated team of accounting and payroll experts. Committed to delivering excellence."
+        pageDesc="Meet our dedicated team, Committed to delivering excellence."
         pageTitle="Our Team"
       />
 

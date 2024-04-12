@@ -44,7 +44,7 @@ function ContactPage() {
           {contactPageCard.map(
             ({ id, icon, name, link, address, linkText }) => (
               <div
-                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
+                className="flex flex-col justify-start items-start rounded-xl p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
                 key={id}
               >
                 <div

@@ -60,7 +60,7 @@ function Header() {
               <Link to={"/"}>
                 <img
                   src={logo}
-                  className="w-48 -translate-x-[70px]"
+                  className="w-48 lg:-translate-x-[70px]"
                   alt="motorpedia logo"
                 />
               </Link>
